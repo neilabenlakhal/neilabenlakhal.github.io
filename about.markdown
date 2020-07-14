@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
 
 *I am an associate professor in computer science. Originally from Tunisia, I studied computer science before moving to Tokyo in 2001. I completed a master’s degree and then a PhD in 2007 and I am currently teaching at Enicarthage. My courses introduce students to service oriented computing and Web computing with a focus on Web services, microservices, software architectures and Web programming.*
 
-## Courses I have tought:
+### Courses I have tought:
 
 * (2009-2010-2011) Web development, SOA and Web services.
 * (2011-2012) Web development, Web applications programming.
@@ -17,9 +17,11 @@ permalink: /about/
 * 2017-2018 Advanced SOA, Advanced Web programming.
 * 2018-2019 Service oriented computing, SOA.
 
-A list of all courses taught with their content is available on this [repository](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/Old_Stuff).
+A list of all courses taught with their content is available on this [repository]().
 
-## Education
+
+
+### Education
 Ph.D. in Computer Science [@Tokyo Institute of Technology, JAPAN](https://www.titech.ac.jp/english/)
 	
 M.E. in Computer Science [@Tokyo Institute of Technology, JAPAN](https://www.titech.ac.jp/english/)
