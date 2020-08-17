@@ -1,6 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T08:59:31+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing materials added !</title><link href="http://localhost:4000/course/update/2020/07/13/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing materials added !" /><published>2020-07-13T20:40:12+01:00</published><updated>2020-07-13T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/07/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/07/13/Welcome.html">&lt;p&gt;The Web materials and resources (lectures/assignments) of the &lt;strong&gt;&lt;em&gt;2020/21 Service Oriented Computing (SOC)&lt;/em&gt;&lt;/strong&gt; course at Enicarthage are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T12:27:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing materials added !</title><link href="http://localhost:4000/course/update/2020/07/13/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing materials added !" /><published>2020-07-13T20:40:12+01:00</published><updated>2020-07-13T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/07/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/07/13/Welcome.html">&lt;p&gt;The Web materials and resources (lectures/assignments) of the &lt;strong&gt;2020/21 Service Oriented Computing (SOC)&lt;/strong&gt; course at Enicarthage are listed here.&lt;/p&gt;
 
-&lt;p&gt;Due to the many code examples in the these lectures we opted to maintain the materials in a GitHub repository.&lt;/p&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview:&lt;/h3&gt;
+
+&lt;p&gt;This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices. More precisely , this course builds a solid foundation on two service based architecture, namely, Service Oriented Architecture (SOA) and Microservices Architecture (MSA).&lt;/p&gt;
+
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Web Programming&lt;/li&gt;
+  &lt;li&gt;Database fundementals&lt;/li&gt;
+  &lt;li&gt;Students must familirize themselves with the following technologies :
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GIT&lt;/code&gt; platform&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML&lt;/code&gt; standards&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;grading&quot;&gt;Grading&lt;/h3&gt;
+
+&lt;p&gt;This course will consist of Quizzes, Lab assignements, lectures, chapter readings presentations and discussions,  – each will contribute to your grades.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Chapter Reading and Quizzes: 30%&lt;/li&gt;
+  &lt;li&gt;Class Discussion: 20%&lt;/li&gt;
+  &lt;li&gt;Lab Assignments (projects): 50%&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Due to the many code examples in the this lecture we opted to maintain the materials in a GitHub repository. The access to the course examples code will be provided with every lecture.&lt;/p&gt;
+
+&lt;h3 id=&quot;workload&quot;&gt;Workload&lt;/h3&gt;
+&lt;p&gt;Students should be prepared to spent 2-5 hours each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignements will be published when we will reach Web service and Docker platforms Labs.&lt;/p&gt;
+
+&lt;h3 id=&quot;assignements-submission&quot;&gt;Assignements submission&lt;/h3&gt;
+
+&lt;p&gt;Assignments will be due at 11:59PM on the day of the deadline. Chapter/Paper reading summaries (if requested) are due at 11:59pm the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading may be subject to a 15min quiz. Students are advised to read lecture slides content and download them before the lecture starting time.&lt;/p&gt;
+
+&lt;h3 id=&quot;deplayed-lab-submissionquizz-attendency&quot;&gt;Deplayed Lab Submission/Quizz Attendency&lt;/h3&gt;
+
+&lt;p&gt;You are allowed to miss two quizzes. Whereas, for the Lab assignments/project milestones, each unsubmitted/Undone Lab results in a loss of 5%.&lt;/p&gt;
+
+&lt;h3 id=&quot;lecture-attendency&quot;&gt;Lecture Attendency&lt;/h3&gt;
+
+&lt;p&gt;Each student must adhere with the folowing lecture attendency regulations:&lt;/p&gt;
+
+&lt;p&gt;Before lecture time :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download lecture material files&lt;/li&gt;
+  &lt;li&gt;Download Lab assignements files/folders&lt;/li&gt;
+  &lt;li&gt;Download and install &lt;em&gt;at home&lt;/em&gt; necessary software/tools&lt;/li&gt;
+  &lt;li&gt;Download and read assigned book chapters. Students must read assigned book chapter before attending lecture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;During Lecture :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Don’t be late. No more than 10 minutes delay will be accepted to attend lecture.&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;As major parto of of the lecture will require an internet access, specially when we will reach the service invocation and Docker plateform chapters, students are advised to have their own internet access as some parts of the course require heavy internet access.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Textbook&lt;/p&gt;
+
+&lt;p&gt;several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.&lt;/p&gt;
+
+&lt;p&gt;Assignments : /ToDo /ToRead/ Labs&lt;/p&gt;
+
+&lt;p&gt;Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ToDo, will not be graded, but they are essential for understanding lecture content.&lt;/li&gt;
+  &lt;li&gt;ToRead, are book chapters/Papers to read before attending lecture. They are subject to quizzes done during the coming lecture.&lt;/li&gt;
+  &lt;li&gt;Labs are to be submitted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ToDo 1: review  your knowledge of XML standards and XSD schemas 
+ToRead : XML standards
+ToDo 2 : Familiarize yourself with Git plateform
+Assignement 1 : [XML/XSD Schema : review exercises]
+Assignement 2 : [
+Assignment 1: [Solo Assignment] Deploying Your First Microservice #1 …………………………………..TBD Assignment 2: [Team Assignment] RetroFitting for Security #2 ………………………………………….Due TBD Assignment 5: [Team Assignment] Migration #5 ….Due TBD
+Group Selection #1 ……………………………. Week 4 Project Proposal #2 …………………………… Week 6 Project MidPoint Checkin #2 ………………….. Week 10 Project Presentation ………………………… Last Class Project Workshop Writeup ……….. End of Reading Period
+Schedule Background&lt;/p&gt;
 
 &lt;!--You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -4,9 +4,8 @@ title: About me
 permalink: /about/
 ---
 
-### About Me
 
-*I am an assistant professor in the Computer Science. I graduated from ISG in Tunisia before moving to Tokyo in 2001. I completed a master’s degree and then a PhD in 2007 and I am currently teaching at the Computer Engineering Department @ Enicarthage. My courses introduce students to service oriented computing and Web computing with a focus on Web services, microservices, software architectures and Web programming.*
+I am an Assistant Professor in  Computer Science. I graduated from ISG in Tunisia before moving to Tokyo. I completed a Master’s Degree and then a PhD in 2007 and I am currently teaching at the Computer Engineering Department of Enicarthage. My courses introduce students to service oriented computing (SOC) and Web computing with a focus on Web services, microservices, software architectures and Web programming.
 
 ### Courses I have tought:
 
