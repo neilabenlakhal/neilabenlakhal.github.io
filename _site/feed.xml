@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T12:31:36+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing materials added !</title><link href="http://localhost:4000/course/update/2020/07/13/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing materials added !" /><published>2020-07-13T20:40:12+01:00</published><updated>2020-07-13T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/07/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/07/13/Welcome.html">&lt;p&gt;The Web materials and resources (lectures/assignments) of the &lt;strong&gt;2020/21 Service Oriented Computing (SOC)&lt;/strong&gt; course at Enicarthage are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-18T22:15:19+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing materials added !</title><link href="http://localhost:4000/course/update/2020/07/13/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing materials added !" /><published>2020-07-13T20:40:12+01:00</published><updated>2020-07-13T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/07/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/07/13/Welcome.html">&lt;p&gt;The Web materials and resources (lectures/assignments) of the &lt;strong&gt;2020/21 Service Oriented Computing (SOC)&lt;/strong&gt; course at Enicarthage are listed here.&lt;/p&gt;
 
 &lt;h3 id=&quot;overview&quot;&gt;Overview:&lt;/h3&gt;
 
@@ -63,14 +63,14 @@
 
 &lt;p&gt;several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.&lt;/p&gt;
 
-&lt;p&gt;Assignments : /ToDo /ToRead/ Labs&lt;/p&gt;
+&lt;p&gt;Assignments : /ToDo /ToRead/ ToCode&lt;/p&gt;
 
 &lt;p&gt;Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignements:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ToDo, will not be graded, but they are essential for understanding lecture content.&lt;/li&gt;
   &lt;li&gt;ToRead, are book chapters/Papers to read before attending lecture. They are subject to quizzes done during the coming lecture.&lt;/li&gt;
-  &lt;li&gt;Labs are to be submitted.&lt;/li&gt;
+  &lt;li&gt;ToCode are to be submitted.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ToDo 1: review  your knowledge of XML standards and XSD schemas 

@@ -62,13 +62,13 @@ Textbook
 
 several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.
 
-Assignments : /ToDo /ToRead/ Labs
+Assignments : /ToDo /ToRead/ ToCode
 
 Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignements: 
 
 * ToDo, will not be graded, but they are essential for understanding lecture content.
 * ToRead, are book chapters/Papers to read before attending lecture. They are subject to quizzes done during the coming lecture.
-* Labs are to be submitted.
+* ToCode are to be submitted.
 
 
 ToDo 1: review  your knowledge of XML standards and XSD schemas 
