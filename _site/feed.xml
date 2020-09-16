@@ -1,14 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-18T22:23:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing materials added !</title><link href="http://localhost:4000/course/update/2020/07/13/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing materials added !" /><published>2020-07-13T20:40:12+01:00</published><updated>2020-07-13T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/07/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/07/13/Welcome.html">&lt;p&gt;The Web materials and resources (lectures/assignments) of the &lt;strong&gt;2020/21 Service Oriented Computing (SOC)&lt;/strong&gt; course at Enicarthage are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-16T21:47:38+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing materials added !</title><link href="http://localhost:4000/course/update/2020/07/13/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing materials added !" /><published>2020-07-13T20:40:12+01:00</published><updated>2020-07-13T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/07/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/07/13/Welcome.html">&lt;p&gt;The Web materials and resources (lectures/assignments) of the &lt;strong&gt;2020/2021 Service Oriented Computing (SOC)&lt;/strong&gt; course at Enicarthage are listed here.&lt;/p&gt;
 
-&lt;h3 id=&quot;overview&quot;&gt;Overview:&lt;/h3&gt;
+&lt;h3 id=&quot;course-overview&quot;&gt;Course Overview:&lt;/h3&gt;
 
-&lt;p&gt;This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices. More precisely , this course builds a solid foundation on two service based architecture, namely, Service Oriented Architecture (SOA) and Microservices Architecture (MSA).&lt;/p&gt;
+&lt;p&gt;This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices.&lt;/p&gt;
+
+&lt;h3 id=&quot;course-objectives-&quot;&gt;Course objectives :&lt;/h3&gt;
+
+&lt;p&gt;Lay a strong foundation on which you can build a successful career as a software architect.&lt;/p&gt;
+
+&lt;p&gt;Develop a basic understanding of software architectural styles.
+Build on top of that to develop an in-depth understanding of service architectures.
+Look at what possibilities and new challenges service architectures brings to the software industry.&lt;/p&gt;
+
+&lt;p&gt;Participants to this course will be able to look at current and future developments in service architectures with enough background to be able to judge :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Which service architecture to choose for your system.&lt;/li&gt;
+  &lt;li&gt;How much of a contribution service architectures offer.&lt;/li&gt;
+  &lt;li&gt;What is the true potential of service architectures.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-this-course-will-cover-&quot;&gt;What this course will cover ?&lt;/h3&gt;
+
+&lt;p&gt;In this lecture, we are mainly concerned with service-based architectural styles. In particular, we will focus on :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Service Oriented Architecture (SOA)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Microservice Architecture (MSA)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Web Programming&lt;/li&gt;
-  &lt;li&gt;Database fundementals&lt;/li&gt;
-  &lt;li&gt;Students must familirize themselves with the following technologies :
+  &lt;li&gt;Database fundamentals&lt;/li&gt;
+  &lt;li&gt;Students must familiarise themselves with the following technologies :
     &lt;ol&gt;
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GIT&lt;/code&gt; platform&lt;/li&gt;
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML&lt;/code&gt; standards&lt;/li&gt;
@@ -16,56 +44,84 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;grading&quot;&gt;Grading&lt;/h3&gt;
-
-&lt;p&gt;This course will consist of Quizzes, Lab assignements, lectures, chapter readings presentations and discussions,  – each will contribute to your grades.&lt;/p&gt;
+&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Chapter Reading and Quizzes: 30%&lt;/li&gt;
-  &lt;li&gt;Class Discussion: 20%&lt;/li&gt;
-  &lt;li&gt;Lab Assignments (projects): 50%&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 1, Demystifying Software Architecture&lt;/code&gt;, begins the course by providing a definition of software architecture. This chapter lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as Common Object Request Broker Architecture (CORBA), the Distributed Component Object Model (DCOM), and Remote Method Invocation (RMI) and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 2, Service-Oriented Architecture (SOA)&lt;/code&gt;, demystifies the popular service-oriented architecture (SOA) patterns that produce service-oriented applications. This chapter provides details on the principles and key concepts of SOA. From this chapter, students will understand the purpose of SOA, the technologies and protocols (web services) used for SOA, and the typical use cases of SOA. Ultimately, students will get to know the deployment difficulties associated with SOA applications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 3, Web Services-Core functionality and standards&lt;/code&gt; will go through the WS-* standards, technologies and APIs that are commonly used to implement a service-oriented application. Bottom-up and top-down service implementations approaches are explored. This chapter introduces also two service integration and composition techniques, namely service orchestration and choreography for composing individual services so as to achieve useful business processes. By the end of this chapter, students will come to know about service implementation,testing, discovery, publication and invocation platforms. Basic concepts of orchestration and choreography, with orchestration and choreography readily available orchestration platforms and workflow engineslike BPEL are also explained.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 5 REST Architecture&lt;/code&gt; introduces the concepts related to the programmable Web, shows how HTTP and Web services are related to each other, introduces the principles behind REST Architectural Style, explains how HTTP verbs are used in REST applications and explains the need for RESTFul web services. By the end of this chapter, students will learn the core architectural elements that form a RESTful system and will get introduced to some frameworks and tools that can be used to work with REST.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 4 Microservice Architecture (MSA) : key architectural elements&lt;/code&gt;. The objective of this chapter is to introduce the essentials of MSA as an architecture that breaks down an application into microservices, each of which can be independently, as well as frequently, deployed and thus facilitate continuous delivery of the application to customers. By the end of the chapter, students will understand the need for MSA, how MSA meets the modern business requirements, and typical use cases, benefits, drawbacks, how MSA differs from SOA. Furthermore, students will learn key architectural elements involved in developing an MSA-based application: the communication models of MSA, microservice discovery and the role of the API gate way in discover. He will understand how services interact with one another synchronously and asynchronously using standard architectures, protocols, and message brokers and how clients discover and access different services using service discovery mechanisms and the API gateway.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 6, Docker: a Defacto Platform for Microservices Architecture&lt;/code&gt;.  To leverage the benefits of the microservices architectural style, one needs to use technologies aligned with the characteristics of microservices. Containerization has become a popular deployment format for microservices, and Docker is the leading container platform that packages everything needed to deploy and run microservices (i.e., code, libraries, settings, etc.) .With a lot of advantages, Docker become the best fit to implementing microservices architecture. In this Chapter we will dive deep in Docker to see how Docker can effectively help in leveraging microservices architecture.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Detailed syllabus can be downloaded here.&lt;/p&gt;
+
+&lt;h3 id=&quot;grading&quot;&gt;Grading&lt;/h3&gt;
+
+&lt;p&gt;This course will consist of Lab assignments, quizzes, lectures, chapter readings, presentations and discussions,  – each will contribute to your grades.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Chapter/Paper Reading and Quizzes : &lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Class Discussion and in-class Labs :  &lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Home Lab assignments (projects) : &lt;strong&gt;50%&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Due to the many code examples in the this lecture we opted to maintain the materials in a GitHub repository. The access to the course examples code will be provided with every lecture.&lt;/p&gt;
 
 &lt;h3 id=&quot;workload&quot;&gt;Workload&lt;/h3&gt;
-&lt;p&gt;Students should be prepared to spent 2-5 hours each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignements will be published when we will reach Web service and Docker platforms Labs.&lt;/p&gt;
+&lt;p&gt;Students should be prepared to spent 2-5 hours each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignments will be published when we will reach Web service and Docker platform Labs.&lt;/p&gt;
 
-&lt;h3 id=&quot;assignements-submission&quot;&gt;Assignements submission&lt;/h3&gt;
+&lt;h3 id=&quot;assignments-submission&quot;&gt;Assignments submission&lt;/h3&gt;
 
-&lt;p&gt;Assignments will be due at 11:59PM on the day of the deadline. Chapter/Paper reading summaries (if requested) are due at 11:59pm the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading may be subject to a 15min quiz. Students are advised to read lecture slides content and download them before the lecture starting time.&lt;/p&gt;
-
-&lt;h3 id=&quot;deplayed-lab-submissionquizz-attendency&quot;&gt;Deplayed Lab Submission/Quizz Attendency&lt;/h3&gt;
-
-&lt;p&gt;You are allowed to miss two quizzes. Whereas, for the Lab assignments/project milestones, each unsubmitted/Undone Lab results in a loss of 5%.&lt;/p&gt;
-
-&lt;h3 id=&quot;lecture-attendency&quot;&gt;Lecture Attendency&lt;/h3&gt;
-
-&lt;p&gt;Each student must adhere with the folowing lecture attendency regulations:&lt;/p&gt;
-
-&lt;p&gt;Before lecture time :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Download lecture material files&lt;/li&gt;
-  &lt;li&gt;Download Lab assignements files/folders&lt;/li&gt;
-  &lt;li&gt;Download and install &lt;em&gt;at home&lt;/em&gt; necessary software/tools&lt;/li&gt;
-  &lt;li&gt;Download and read assigned book chapters. Students must read assigned book chapter before attending lecture.&lt;/li&gt;
+  &lt;li&gt;Assignments will be due at &lt;strong&gt;11:59PM&lt;/strong&gt; on the day of the deadline.&lt;/li&gt;
+  &lt;li&gt;Chapter/Paper reading summaries (if requested) are due at &lt;strong&gt;11:59PM&lt;/strong&gt; the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading might be subject to a 15 min quiz. Students are advised to read lecture slides content and download them &lt;em&gt;before&lt;/em&gt; the lecture starting time.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;During Lecture :&lt;/p&gt;
+&lt;h3 id=&quot;lab-submission&quot;&gt;Lab submission&lt;/h3&gt;
+
+&lt;p&gt;Each unsubmitted Lab assignment results in a loss of &lt;strong&gt;5%&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;lecture-attendance-regulations&quot;&gt;Lecture Attendance regulations&lt;/h3&gt;
+
+&lt;p&gt;Each student must adhere with the following lecture attendance regulations:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*Before lecture time :*&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download lecture material files.&lt;/li&gt;
+  &lt;li&gt;Download Lab assignments files/folders.&lt;/li&gt;
+  &lt;li&gt;Download and install &lt;em&gt;at home&lt;/em&gt; necessary software/tools&lt;/li&gt;
+  &lt;li&gt;Download and read assigned book chapters/papers. Students must read assigned book chapter before attending lecture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;*During Lecture :*&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Don’t be late. No more than 10 minutes delay will be accepted to attend lecture.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;As major parto of of the lecture will require an internet access, specially when we will reach the service invocation and Docker plateform chapters, students are advised to have their own internet access as some parts of the course require heavy internet access.&lt;/li&gt;
+  &lt;li&gt;As major part of of the lecture will require an internet access, specially when we will reach the service invocation and Docker platform chapters, students are advised to have their own internet access as some parts of the course require heavy internet access.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Textbook&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Textbooks*&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.&lt;/p&gt;
+&lt;p&gt;Several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.&lt;/p&gt;
 
 &lt;p&gt;Assignments : /ToDo /ToRead/ ToCode&lt;/p&gt;
 
-&lt;p&gt;Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignements:&lt;/p&gt;
+&lt;p&gt;Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignments:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ToDo, will not be graded, but they are essential for understanding lecture content.&lt;/li&gt;
@@ -75,7 +131,7 @@
 
 &lt;p&gt;ToDo 1: review  your knowledge of XML standards and XSD schemas 
 ToRead : XML standards
-ToDo 2 : Familiarize yourself with Git plateform
+ToDo 2 : Familiarise yourself with Git platform
 Assignement 1 : [XML/XSD Schema : review exercises]
 Assignement 2 : [
 Assignment 1: [Solo Assignment] Deploying Your First Microservice #1 …………………………………..TBD Assignment 2: [Team Assignment] RetroFitting for Security #2 ………………………………………….Due TBD Assignment 5: [Team Assignment] Migration #5 ….Due TBD
@@ -104,4 +160,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/--&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources (lectures/assignments) of the 2020/21 Service Oriented Computing (SOC) course at Enicarthage are listed here.</summary></entry></feed>
+[jekyll-talk]: https://talk.jekyllrb.com/--&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources (lectures/assignments) of the 2020/2021 Service Oriented Computing (SOC) course at Enicarthage are listed here.</summary></entry></feed>

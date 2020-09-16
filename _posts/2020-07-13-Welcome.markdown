@@ -5,66 +5,105 @@ date:   2020-07-13 22:40:12 +0300
 categories: Course update
 ---
 
-The Web materials and resources (lectures/assignments) of the **2020/21 Service Oriented Computing (SOC)** course at Enicarthage are listed here.
+The Web materials and resources (lectures/assignments) of the **2020/2021 Service Oriented Computing (SOC)** course at Enicarthage are listed here.
 
-### Overview: 
+### Course Overview: 
 
-This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices. More precisely , this course builds a solid foundation on two service based architecture, namely, Service Oriented Architecture (SOA) and Microservices Architecture (MSA). 
+This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices. 
+
+### Course objectives :
+
+Lay a strong foundation on which you can build a successful career as a software architect. 
+
+
+Develop a basic understanding of software architectural styles.
+Build on top of that to develop an in-depth understanding of service architectures.
+Look at what possibilities and new challenges service architectures brings to the software industry.
+
+Participants to this course will be able to look at current and future developments in service architectures with enough background to be able to judge :
+* Which service architecture to choose for your system.
+*  How much of a contribution service architectures offer.
+* What is the true potential of service architectures.
+
+### What this course will cover ?
+
+In this lecture, we are mainly concerned with service-based architectural styles. In particular, we will focus on : 
+
+1. Service Oriented Architecture (SOA)
+
+1. Microservice Architecture (MSA)
 
 ### Prerequisites
 * Web Programming
-* Database fundementals 
-* Students must familirize themselves with the following technologies :
+* Database fundamentals
+* Students must familiarise themselves with the following technologies :
 1.  `GIT` platform
 1. `XML` standards
 
+### Content 
+
+1. `Chapter 1, Demystifying Software Architecture`, begins the course by providing a definition of software architecture. This chapter lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as Common Object Request Broker Architecture (CORBA), the Distributed Component Object Model (DCOM), and Remote Method Invocation (RMI) and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.
+
+1. `Chapter 2, Service-Oriented Architecture (SOA)`, demystifies the popular service-oriented architecture (SOA) patterns that produce service-oriented applications. This chapter provides details on the principles and key concepts of SOA. From this chapter, students will understand the purpose of SOA, the technologies and protocols (web services) used for SOA, and the typical use cases of SOA. Ultimately, students will get to know the deployment difficulties associated with SOA applications.
+
+1. `Chapter 3, Web Services-Core functionality and standards` will go through the WS-* standards, technologies and APIs that are commonly used to implement a service-oriented application. Bottom-up and top-down service implementations approaches are explored. This chapter introduces also two service integration and composition techniques, namely service orchestration and choreography for composing individual services so as to achieve useful business processes. By the end of this chapter, students will come to know about service implementation,testing, discovery, publication and invocation platforms. Basic concepts of orchestration and choreography, with orchestration and choreography readily available orchestration platforms and workflow engineslike BPEL are also explained.
+
+1. `Chapter 5 REST Architecture` introduces the concepts related to the programmable Web, shows how HTTP and Web services are related to each other, introduces the principles behind REST Architectural Style, explains how HTTP verbs are used in REST applications and explains the need for RESTFul web services. By the end of this chapter, students will learn the core architectural elements that form a RESTful system and will get introduced to some frameworks and tools that can be used to work with REST.
+
+1. `Chapter 4 Microservice Architecture (MSA) : key architectural elements`. The objective of this chapter is to introduce the essentials of MSA as an architecture that breaks down an application into microservices, each of which can be independently, as well as frequently, deployed and thus facilitate continuous delivery of the application to customers. By the end of the chapter, students will understand the need for MSA, how MSA meets the modern business requirements, and typical use cases, benefits, drawbacks, how MSA differs from SOA. Furthermore, students will learn key architectural elements involved in developing an MSA-based application: the communication models of MSA, microservice discovery and the role of the API gate way in discover. He will understand how services interact with one another synchronously and asynchronously using standard architectures, protocols, and message brokers and how clients discover and access different services using service discovery mechanisms and the API gateway. 
+
+1. `Chapter 6, Docker: a Defacto Platform for Microservices Architecture`.  To leverage the benefits of the microservices architectural style, one needs to use technologies aligned with the characteristics of microservices. Containerization has become a popular deployment format for microservices, and Docker is the leading container platform that packages everything needed to deploy and run microservices (i.e., code, libraries, settings, etc.) .With a lot of advantages, Docker become the best fit to implementing microservices architecture. In this Chapter we will dive deep in Docker to see how Docker can effectively help in leveraging microservices architecture.
+
+
+Detailed syllabus can be downloaded here.
 
 ### Grading 
+ 
+This course will consist of Lab assignments, quizzes, lectures, chapter readings, presentations and discussions,  – each will contribute to your grades.
 
-This course will consist of Quizzes, Lab assignements, lectures, chapter readings presentations and discussions,  – each will contribute to your grades.
-
-1. Chapter Reading and Quizzes: 30% 
-1. Class Discussion: 20%
-1. Lab Assignments (projects): 50%
+1. Chapter/Paper Reading and Quizzes : **25%**
+1. Class Discussion and in-class Labs :  **25%**
+1. Home Lab assignments (projects) : **50%**
 
 
 Due to the many code examples in the this lecture we opted to maintain the materials in a GitHub repository. The access to the course examples code will be provided with every lecture.
 
 ### Workload 
-Students should be prepared to spent 2-5 hours each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignements will be published when we will reach Web service and Docker platforms Labs.
+Students should be prepared to spent 2-5 hours each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignments will be published when we will reach Web service and Docker platform Labs.
 
-### Assignements submission
+### Assignments submission
 
-Assignments will be due at 11:59PM on the day of the deadline. Chapter/Paper reading summaries (if requested) are due at 11:59pm the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading may be subject to a 15min quiz. Students are advised to read lecture slides content and download them before the lecture starting time.
+* Assignments will be due at **11:59PM** on the day of the deadline. 
+* Chapter/Paper reading summaries (if requested) are due at **11:59PM** the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading might be subject to a 15 min quiz. Students are advised to read lecture slides content and download them *before* the lecture starting time.
 
 
-### Deplayed Lab Submission/Quizz Attendency 
+### Lab submission
 
-You are allowed to miss two quizzes. Whereas, for the Lab assignments/project milestones, each unsubmitted/Undone Lab results in a loss of 5%.
+Each unsubmitted Lab assignment results in a loss of **5%**.
 
-### Lecture Attendency
+### Lecture Attendance regulations
 
-Each student must adhere with the folowing lecture attendency regulations:
+Each student must adhere with the following lecture attendance regulations:
 
-Before lecture time :
-* Download lecture material files
-* Download Lab assignements files/folders
+_*Before lecture time :*_
+
+* Download lecture material files.
+* Download Lab assignments files/folders.
 * Download and install _at home_ necessary software/tools
-* Download and read assigned book chapters. Students must read assigned book chapter before attending lecture.
+* Download and read assigned book chapters/papers. Students must read assigned book chapter before attending lecture.
 
-During Lecture :
+_*During Lecture :*_
 
 * Don't be late. No more than 10 minutes delay will be accepted to attend lecture.
-* 
-* As major parto of of the lecture will require an internet access, specially when we will reach the service invocation and Docker plateform chapters, students are advised to have their own internet access as some parts of the course require heavy internet access.
+* As major part of of the lecture will require an internet access, specially when we will reach the service invocation and Docker platform chapters, students are advised to have their own internet access as some parts of the course require heavy internet access.
 
-Textbook
+_*Textbooks*_
 
-several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.
+Several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.
 
 Assignments : /ToDo /ToRead/ ToCode
 
-Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignements: 
+Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignments: 
 
 * ToDo, will not be graded, but they are essential for understanding lecture content.
 * ToRead, are book chapters/Papers to read before attending lecture. They are subject to quizzes done during the coming lecture.
@@ -73,7 +112,7 @@ Every lecture will be subject to several Labs and/or Todo and/or ToRead  assigne
 
 ToDo 1: review  your knowledge of XML standards and XSD schemas 
 ToRead : XML standards
-ToDo 2 : Familiarize yourself with Git plateform
+ToDo 2 : Familiarise yourself with Git platform
 Assignement 1 : [XML/XSD Schema : review exercises]
 Assignement 2 : [
 Assignment 1: [Solo Assignment] Deploying Your First Microservice #1 .........................................TBD Assignment 2: [Team Assignment] RetroFitting for Security #2 .................................................Due TBD Assignment 5: [Team Assignment] Migration #5 ....Due TBD
