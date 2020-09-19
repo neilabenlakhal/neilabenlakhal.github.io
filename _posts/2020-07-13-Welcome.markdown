@@ -1,28 +1,29 @@
 ---
 layout: post
-title:  "Service Oriented Computing materials added !"
-date:   2020-07-13 22:40:12 +0300
+title:  "Service Oriented Computing (SoC) materials !"
+date:   2020-09-16 22:40:12 +0300
 categories: Course update
 ---
 
-The Web materials and resources (lectures/assignments) of the **2020/2021 Service Oriented Computing (SOC)** course at Enicarthage are listed here.
+The Web materials and resources of the `2020/2021 Service Oriented Computing (SOC)` course at [Enicarthage](http://www.enicarthage.rnu.tn/) are listed here.
 
-### Course Overview: 
+### Course overview:
+This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices.
 
-This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices. 
+ 
 
 ### Course objectives :
-
 Lay a strong foundation on which you can build a successful career as a software architect. 
 
 
-Develop a basic understanding of software architectural styles.
-Build on top of that to develop an in-depth understanding of service architectures.
-Look at what possibilities and new challenges service architectures brings to the software industry.
+* Develop a basic understanding of software architectural styles.
+* Build on top of that to develop an in-depth understanding of service architectures.
+* Look at what possibilities and new challenges service architectures brings to the software industry.
 
 Participants to this course will be able to look at current and future developments in service architectures with enough background to be able to judge :
+
 * Which service architecture to choose for your system.
-*  How much of a contribution service architectures offer.
+* How much of a contribution service architectures offer.
 * What is the true potential of service architectures.
 
 ### What this course will cover ?
@@ -34,13 +35,15 @@ In this lecture, we are mainly concerned with service-based architectural styles
 1. Microservice Architecture (MSA)
 
 ### Prerequisites
+
 * Web Programming
 * Database fundamentals
+* Object oriented modeling
 * Students must familiarise themselves with the following technologies :
-1.  `GIT` platform
-1. `XML` standards
+1.  `GIT` platform.
+1. `XML` standards.
 
-### Content 
+### Course content
 
 1. `Chapter 1, Demystifying Software Architecture`, begins the course by providing a definition of software architecture. This chapter lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as Common Object Request Broker Architecture (CORBA), the Distributed Component Object Model (DCOM), and Remote Method Invocation (RMI) and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.
 
@@ -55,69 +58,77 @@ In this lecture, we are mainly concerned with service-based architectural styles
 1. `Chapter 6, Docker: a Defacto Platform for Microservices Architecture`.  To leverage the benefits of the microservices architectural style, one needs to use technologies aligned with the characteristics of microservices. Containerization has become a popular deployment format for microservices, and Docker is the leading container platform that packages everything needed to deploy and run microservices (i.e., code, libraries, settings, etc.) .With a lot of advantages, Docker become the best fit to implementing microservices architecture. In this Chapter we will dive deep in Docker to see how Docker can effectively help in leveraging microservices architecture.
 
 
-Detailed syllabus can be downloaded here.
-
 ### Grading 
  
 This course will consist of Lab assignments, quizzes, lectures, chapter readings, presentations and discussions,  – each will contribute to your grades.
 
-1. Chapter/Paper Reading and Quizzes : **25%**
-1. Class Discussion and in-class Labs :  **25%**
-1. Home Lab assignments (projects) : **50%**
+1. Chapter reading and Quizzes : `25%`
+1. In-class Labs :  `25%`
+1. Athome Labs and mid-term exam : `50%`
 
 
 Due to the many code examples in the this lecture we opted to maintain the materials in a GitHub repository. The access to the course examples code will be provided with every lecture.
 
 ### Workload 
-Students should be prepared to spent 2-5 hours each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignments will be published when we will reach Web service and Docker platform Labs.
+
+Students should be prepared to spent `2-5 hours` each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignments will be published when we will reach Web service and Docker platform Labs.
 
 ### Assignments submission
 
-* Assignments will be due at **11:59PM** on the day of the deadline. 
-* Chapter/Paper reading summaries (if requested) are due at **11:59PM** the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading might be subject to a 15 min quiz. Students are advised to read lecture slides content and download them *before* the lecture starting time.
+* Assignments will be due at `11:59PM` on the day of the deadline. 
+* Chapter/Paper reading summaries (if requested) are due at `11:59PM` the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading might be subject to a 15 min quiz. Students are advised to read lecture slides content and download them *before* the lecture starting time.
 
 
 ### Lab submission
 
-Each unsubmitted Lab assignment results in a loss of **5%**.
+Each unsubmitted Lab assignment results in a loss of `5%`.
 
-### Lecture Attendance regulations
+### Lecture attendance regulations
 
 Each student must adhere with the following lecture attendance regulations:
 
-_*Before lecture time :*_
+> Before lecture time :
 
-* Download lecture material files.
-* Download Lab assignments files/folders.
-* Download and install _at home_ necessary software/tools
-* Download and read assigned book chapters/papers. Students must read assigned book chapter before attending lecture.
+- [x] Download lecture material files.
+- [x] Download Lab assignments files and folders.
+- [x] Download and install @home necessary software and tools.
+- [x] Download and read assigned book chapters and papers. Students must read assigned book chapter before attending lecture.
 
-_*During Lecture :*_
+> During Lecture :
 
-* Don't be late. No more than 10 minutes delay will be accepted to attend lecture.
-* As major part of of the lecture will require an internet access, specially when we will reach the service invocation and Docker platform chapters, students are advised to have their own internet access as some parts of the course require heavy internet access.
+- [x] Don't be late. No more than `10` minutes delay will be accepted to attend lecture.
+- [x] As major part of the lecture will require an internet access, - specially when we will reach the service invocation and Docker platform chapter, students are advised to have their own internet access as some parts of the course require heavy internet access.
 
-_*Textbooks*_
+> Assignments : `ToDo` | `ToRead` | `ToCode`
 
-Several textbooks are required for this class. They are made available online and can be optionally accessed through digital library.
+Every lecture will be subject to chapters to read, in class and at home labs to do.
 
-Assignments : /ToDo /ToRead/ ToCode
+* `ToDo`, will not be graded, but they are essential for understanding lecture content.
+* `ToRead`, are book chapters and papers to read before attending course. They are subject to quizzes done during the coming lecture.
+* `ToCode` are to be submitted.
 
-Every lecture will be subject to several Labs and/or Todo and/or ToRead  assignments: 
+### Textbooks
 
-* ToDo, will not be graded, but they are essential for understanding lecture content.
-* ToRead, are book chapters/Papers to read before attending lecture. They are subject to quizzes done during the coming lecture.
-* ToCode are to be submitted.
+1. Several textbooks are required for this class. They are made available online on the course folder : 
+2. Chellammal Surianarayanan, Gopinath Ganapathy, Raj Pethuru, `Essentials of Microservices Architecture Paradigms, Applications`, and Techniques, Taylor & Francis; 1st Edition 2019.
+3. Poulton, Nigel. `Docker Deep Dive`. JJNP Consulting Limited, 2018.
+4. Nickoloff, Jeff. And Kuenzli, Stephen. `Docker in action`. Manning Publications Co., 2019.
+5. Nickoloff, Jeff. `Docker in action`. Manning Publications Co., 2016.
+6. Miell, Ian, and Aidan Hobson Sayers. `Docker in practice`. Manning Publications, 2019.
+7. Miell, Ian, and Aidan Hobson Sayers. `Docker in practice`. Manning Publications, 2016.
+8. Kane, Sean P., and Karl Matthias. `Docker: Up & Running: Shipping Reliable Containers in Production`. O'Reilly Media, 2018.
+9. Chelladhurai, Jeeva S., Vinod Singh, and Pethuru Raj. `Learning docker`. Packt Publishing Ltd, 2017.
+10. Schenker, Gabriel Nicolas. `Learn Docker-Fundamentals of Docker 19. x.` Packt Publishing, 2020.
+11. Richards, Mark. Ford, Neal . `Fundamentals of Software Architecture` (O’Reilly). 2020.
+12. Ingeno, Joseph. `Software Architect’s Handbook`. Packt Publishing Ltd, 2018.
+13. Michael P. Papazoglou, `Web services: Principles and Technology`, Pearson Education Limited, second edition, 2012.
+14. Michael P. Papazoglou, `Web Services and SOA: Principles and Technology`, 2nd Edition. Prentice Hall, Pearson Education, 2011.
+15. Douglas K. Barry, `Web Services, Service-Oriented Architectures, and Cloud Computing: The Savvy Manager's Guide`, Morgan Kaufmann; 2nd Edition, 2013.
+16. James Bean. `SOA and Web Services Interface Design: Principles, Techniques, and Standards`, Morgan Kaufmann Publishers 2010.
+17. Steve Graham and Al. `Building Web Services with Java: MAKING SENSE OF XML, SOAP, WSDL, AND UDDI`. Second Edition Sams Publishing; 2nd Edition, 2004.
+18. Bogunuva Mohanram Balachandar. `RESTful Java Web Services : A pragmatic guide to designing and building RESTful APIs using Java`. Packt Publishing, third edition 2017.
 
 
-ToDo 1: review  your knowledge of XML standards and XSD schemas 
-ToRead : XML standards
-ToDo 2 : Familiarise yourself with Git platform
-Assignement 1 : [XML/XSD Schema : review exercises]
-Assignement 2 : [
-Assignment 1: [Solo Assignment] Deploying Your First Microservice #1 .........................................TBD Assignment 2: [Team Assignment] RetroFitting for Security #2 .................................................Due TBD Assignment 5: [Team Assignment] Migration #5 ....Due TBD
-Group Selection #1 .................................. Week 4 Project Proposal #2 ................................. Week 6 Project MidPoint Checkin #2 ....................... Week 10 Project Presentation .............................. Last Class Project Workshop Writeup ........... End of Reading Period
-Schedule Background
 
 
 <!--You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
