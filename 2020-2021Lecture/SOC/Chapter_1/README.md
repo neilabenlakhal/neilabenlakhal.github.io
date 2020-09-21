@@ -23,22 +23,22 @@ This chapter begins the course by providing a definition of software architectur
 
 - Objective : Get Familiarised with GiT.
 * First you need to create [GitHub.com account](http://github.com).
-- You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop(https://desktop.github.com/) or work from Github Web interface.
+- You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
 - Learn how to clone a repository.
 - Learn how to push, pull, add commit modifications to a remote repository, etc.
 
 You can use theses resources : 
 
-- :link: [Git Book v2](https://git-scm.com/book/en/v2)
-- Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html)
-- :link: [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak)
-- :link: [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s)
+- :link: [Git Book v2](https://git-scm.com/book/en/v2).
+- Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
+- :link: [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
+- :link: [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
  
  > Preferred text editor:
  
  It is highly recommended to use :
 
-- [visual studio code](https://code.visualstudio.com/docs/setup/setup-overview) as it supports multiple extensions we will be using throughout this course.
+- [Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview) as it supports multiple extensions we will be using throughout this course.
 
 - [Atom](https://atom.io/) can also be used.
 
