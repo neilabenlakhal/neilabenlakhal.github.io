@@ -22,25 +22,25 @@ This chapter begins the course by providing a definition of software architectur
 :pencil: **ToDo** 
 
 - Objective : Get Familiarised with GiT.
-* First you need to create [GitHub.com account](http://github.com).
+- First you need to create [GitHub.com account](http://github.com).
 - You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
 - Learn how to clone a repository.
 - Learn how to push, pull, add commit modifications to a remote repository, etc.
 
-You can use theses resources : 
+- You can use theses resources : 
 
-- :link: [Git Book v2](https://git-scm.com/book/en/v2).
-- Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
-- :link: [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
-- :link: [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
+	- :link: [Git Book v2](https://git-scm.com/book/en/v2).
+	- Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
+	- :link: [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
+	- :link: [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
  
- > Preferred text editor:
+ - Preferred text editor:
  
- It is highly recommended to use :
+	 It is highly recommended to use :
 
-- [Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview) as it supports multiple extensions we will be using throughout this course.
+	- [Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview) as it supports multiple extensions we will be using throughout this course.
 
-- [Atom](https://atom.io/) can also be used.
+	- [Atom](https://atom.io/) can also be used.
 
 > After lecture : 
 
@@ -48,13 +48,13 @@ You can use theses resources :
 
 - Install [Git-it (Desktop App)](https://github.com/jlord/git-it-electron/releases) : Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line. It contains a set of challenges for learning Git and GitHub—by using real Git and GitHub. You'll be learning Git command lines and GitHub which means when you finish all of the challenges you'll have real repositories on your GitHub account.
 
-What to submit ?
+- What to submit ?
 
-Upon finishing the challenges, submit : 
+	Upon finishing the challenges, submit : 
 
-- A print screen of the Git-it desktop App indicating that you have done all the challenges and
+	- A print screen of the Git-it desktop App indicating that you have done all the challenges and
 
-- A print screen of your Github created repository. *Use your real name and family name as GitHub account.*
+	- A print screen of your Github created repository. *Use your real name and family name as GitHub account.*
 
 > Additional resources : 
 
