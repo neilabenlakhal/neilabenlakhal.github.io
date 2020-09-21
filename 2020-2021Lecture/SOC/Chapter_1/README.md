@@ -22,8 +22,7 @@
 
 - Objective : Get Familiarised with GiT.
 - First you need to create [GitHub.com account](http://github.com) : You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
-- Learn how to clone a repository.
-- Learn how to push, pull, add commit modifications to a remote repository, etc.
+- You need to Learn:  how to create, clone a repository, push, pull add commit modifications to a remote repository, etc.
 
 - You can use theses resources : 
 
