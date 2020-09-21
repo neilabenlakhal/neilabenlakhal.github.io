@@ -1,11 +1,11 @@
 ### Chapter 1 : Demystifying Software Architecture
 
-> Chapter synopsis:
+#### Chapter synopsis:
 ---
-This chapter begins the course by providing a definition of software architecture and lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as CORBA, DCOM, and RMI and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.
+*This chapter begins the course by providing a definition of software architecture and lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as CORBA, DCOM, and RMI and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.*
 
 
-> Before lecture : 
+#### Before lecture : 
 ---
 :book: **ToRead**
 
@@ -22,15 +22,14 @@ This chapter begins the course by providing a definition of software architectur
 :pencil: **ToDo** 
 
 - Objective : Get Familiarised with GiT.
-- First you need to create [GitHub.com account](http://github.com).
-- You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
+- First you need to create [GitHub.com account](http://github.com) : You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
 - Learn how to clone a repository.
 - Learn how to push, pull, add commit modifications to a remote repository, etc.
 
 - You can use theses resources : 
 
+	- :link: Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
 	- :link: [Git Book v2](https://git-scm.com/book/en/v2).
-	- Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
 	- :link: [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
 	- :link: [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
  
@@ -42,7 +41,7 @@ This chapter begins the course by providing a definition of software architectur
 
 	- [Atom](https://atom.io/) can also be used.
 
-> After lecture : 
+#### After lecture : 
 ---
 :computer: **ToCode** 
 
@@ -56,7 +55,7 @@ This chapter begins the course by providing a definition of software architectur
 
 	- A print screen of your Github created repository. *Use your real name and family name as GitHub account.*
 
-> Additional resources : 
+Additional resources : 
 
 - [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources).
 
