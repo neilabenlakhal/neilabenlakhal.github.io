@@ -46,20 +46,20 @@ You can use theses resources :
 
 :computer: **ToCode** 
 
-- Install [Git-it (Desktop App)](https://github.com/jlord/git-it-electron/releases) : Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line. 
-
-- This application contains challenges for learning Git and GitHub—by using real Git and GitHub.
-
-- You'll be learning Git command lines and GitHub which means when you finish all of the challenges you'll have real repositories on your GitHub account.
+- Install [Git-it (Desktop App)](https://github.com/jlord/git-it-electron/releases) : Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line. It contains a set of challenges for learning Git and GitHub—by using real Git and GitHub. You'll be learning Git command lines and GitHub which means when you finish all of the challenges you'll have real repositories on your GitHub account.
 
 What to submit ?
 
-Upon finishing the challenges, submit print screens of the Git-it desktop App indicating that you have done all the challenges and a print screen of your Github created repository. *Use your real name and family name as GitHub account. *
+Upon finishing the challenges, submit : 
+
+- A print screen of the Git-it desktop App indicating that you have done all the challenges and
+
+- A print screen of your Github created repository. *Use your real name and family name as GitHub account.*
 
 > Additional resources : 
 
-- [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources)
+- [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources).
 
-- [Resources to learn Git](https://try.github.io/)
+- [Resources to learn Git](https://try.github.io/).
 
 
