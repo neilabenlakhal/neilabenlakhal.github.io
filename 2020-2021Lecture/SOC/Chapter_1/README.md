@@ -1,12 +1,12 @@
 ### Chapter 1 : Demystifying Software Architecture
 
 > Chapter synopsis:
-
+---
 This chapter begins the course by providing a definition of software architecture and lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as CORBA, DCOM, and RMI and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.
 
 
 > Before lecture : 
-
+---
 :book: **ToRead**
 
 1.  From : Ingeno, Joseph. `Software Architect’s Handbook`. Packt Publishing Ltd, 2018.
@@ -43,7 +43,7 @@ This chapter begins the course by providing a definition of software architectur
 	- [Atom](https://atom.io/) can also be used.
 
 > After lecture : 
-
+---
 :computer: **ToCode** 
 
 - Install [Git-it (Desktop App)](https://github.com/jlord/git-it-electron/releases) : Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line. It contains a set of challenges for learning Git and GitHub—by using real Git and GitHub. You'll be learning Git command lines and GitHub which means when you finish all of the challenges you'll have real repositories on your GitHub account.
