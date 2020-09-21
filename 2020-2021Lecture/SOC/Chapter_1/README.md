@@ -15,7 +15,7 @@
 
 1. From : Richards, Mark. Ford, Neal. `Fundamentals of Software Architecture` (O’Reilly). 2020.
 
-	* **Part II : Architectural styles: Chap 9**. Foundations.
+	* **Chap 9.** Foundations.
 
 
 :pencil: **ToDo** 
@@ -51,7 +51,7 @@
 
 	- A print screen of the Git-it desktop App indicating that you have done all the challenges and
 
-	- A print screen of your Github created repository. *Use your real name and family name as GitHub account*.
+	- A print screen of your Github created repository. :warning: *Use your real name and family name as GitHub account*.
 
 Additional resources : 
 
