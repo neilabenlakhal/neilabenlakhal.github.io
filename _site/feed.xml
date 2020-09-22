@@ -1,15 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-19T04:33:54+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Service Oriented Computing (SoC) materials !</title><link href="http://localhost:4000/course/update/2020/09/16/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing (SoC) materials !" /><published>2020-09-16T20:40:12+01:00</published><updated>2020-09-16T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/16/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/16/Welcome.html">&lt;p&gt;The Web materials and resources of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020/2021 Service Oriented Computing (SOC)&lt;/code&gt; course at &lt;a href=&quot;http://www.enicarthage.rnu.tn/&quot;&gt;Enicarthage&lt;/a&gt; are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-22T21:53:26+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
 
-&lt;h3 id=&quot;course-overview&quot;&gt;Course overview:&lt;/h3&gt;
+&lt;h1 id=&quot;chapter-1--demystifying-software-architecture&quot;&gt;Chapter 1 : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_1&quot;&gt;Demystifying Software Architecture&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;chapter-synopsis&quot;&gt;Chapter synopsis&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This chapter begins the course by providing a definition of software architecture and lists and details a number of software architecture styles classifications. We will also present different object-oriented distributed computing technologies, such as CORBA, DCOM, and RMI and list their limitations that led to service architectural styles emergence. Several examples of each type of architectural style will be also provided.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h2&gt;
+
+&lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From : Ingeno, Joseph. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Software Architect’s Handbook&lt;/code&gt;. Packt Publishing Ltd, 2018.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 7.&lt;/strong&gt; Software Architecture Patterns.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 8.&lt;/strong&gt; Architecting Modern Applications.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From : Richards, Mark. Ford, Neal. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fundamentals of Software Architecture&lt;/code&gt; (O’Reilly). 2020.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 9.&lt;/strong&gt; Foundations.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;📝 &lt;strong&gt;ToDo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Objective : Get Familiarised with GiT.&lt;/li&gt;
+  &lt;li&gt;First you need to create &lt;a href=&quot;http://github.com&quot;&gt;GitHub.com account&lt;/a&gt; : You can use the command line, and install &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git&lt;/a&gt; (the version control software GitHub is built on) or download &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt; or work from Github Web interface.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to Learn:  how to create, clone a repository, push, pull add commit modifications to a remote repository, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can use theses resources :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;🔗 Quick reference guides: &lt;a href=&quot;https://training.github.com/&quot;&gt;GitHub Cheat Sheet&lt;/a&gt;, &lt;a href=&quot;https://ndpsoftware.com/git-cheatsheet.html&quot;&gt;Visual Git Cheat Sheet&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;🔗 &lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;Git Book v2&lt;/a&gt;.
+        &lt;ul&gt;
+          &lt;li&gt;🔗 &lt;a href=&quot;https://www.youtube.com/watch?v=xuB1Id2Wxak&quot;&gt;Edureka Git Tutorial&lt;/a&gt;.&lt;/li&gt;
+          &lt;li&gt;🔗 &lt;a href=&quot;https://www.youtube.com/watch?v=SWYqp7iY_Tc&amp;amp;t=193s&quot;&gt;Git &amp;amp; GitHub Crash Course For Beginners&lt;/a&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Preferred text editor:&lt;/p&gt;
+
+    &lt;p&gt;It is highly recommended to use :&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🔗&lt;a href=&quot;https://code.visualstudio.com/docs/setup/setup-overview&quot;&gt;Visual studio code&lt;/a&gt; as it supports multiple extensions we will be using throughout this course.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; can also be used.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;after-lecture-&quot;&gt;After lecture :&lt;/h2&gt;
+
+&lt;p&gt;💻 &lt;strong&gt;ToCode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install &lt;a href=&quot;https://github.com/jlord/git-it-electron/releases&quot;&gt;Git-it (Desktop App)&lt;/a&gt; : Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line. It contains a set of challenges for learning Git and GitHub—by using real Git and GitHub. You’ll be learning Git command lines and GitHub which means when you finish all of the challenges you’ll have real repositories on your GitHub account.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What to submit ?&lt;/p&gt;
+
+    &lt;p&gt;Upon finishing the challenges, submit :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;A print screen of the Git-it desktop App indicating that you have done all the challenges and&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;A print screen of your Github created repository.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;⚠ &lt;em&gt;Use your real name as GitHub account&lt;/em&gt;: recommended format : firstNameLastName&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-resources-&quot;&gt;Additional resources :&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources&quot;&gt;Git and GitHub learning resources&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://try.github.io/&quot;&gt;Resources to learn Git&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 1 are listed here.</summary></entry><entry><title type="html">Service Oriented Computing (SoC) materials !</title><link href="http://localhost:4000/course/update/2020/09/16/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing (SoC) materials !" /><published>2020-09-16T20:40:12+01:00</published><updated>2020-09-16T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/16/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/16/Welcome.html">&lt;p&gt;The Web materials and resources of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020/2021 Service Oriented Computing (SOC)&lt;/code&gt; course at &lt;a href=&quot;http://www.enicarthage.rnu.tn/&quot;&gt;Enicarthage&lt;/a&gt; are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-overview&quot;&gt;Course overview&lt;/h1&gt;
+
 &lt;p&gt;This course explores an emerging paradigm for enabling distributed systems and applications at scale, Microservices.&lt;/p&gt;
 
-&lt;h3 id=&quot;course-objectives-&quot;&gt;Course objectives :&lt;/h3&gt;
+&lt;h1 id=&quot;course-objectives&quot;&gt;Course objectives&lt;/h1&gt;
 &lt;p&gt;Lay a strong foundation on which you can build a successful career as a software architect.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Develop a basic understanding of software architectural styles.&lt;/li&gt;
-  &lt;li&gt;Build on top of that to develop an in-depth understanding of service architectures.&lt;/li&gt;
-  &lt;li&gt;Look at what possibilities and new challenges service architectures brings to the software industry.&lt;/li&gt;
+  &lt;li&gt;Develop an in-depth understanding of &lt;strong&gt;service architectures&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Look at what possibilities &lt;strong&gt;service architectures&lt;/strong&gt; brings to the software industry.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Participants to this course will be able to look at current and future developments in service architectures with enough background to be able to judge :&lt;/p&gt;
@@ -20,7 +114,7 @@
   &lt;li&gt;What is the true potential of service architectures.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;what-this-course-will-cover-&quot;&gt;What this course will cover ?&lt;/h3&gt;
+&lt;h1 id=&quot;what-this-course-will-cover-&quot;&gt;What this course will cover ?&lt;/h1&gt;
 
 &lt;p&gt;In this lecture, we are mainly concerned with service-based architectural styles. In particular, we will focus on :&lt;/p&gt;
 
@@ -33,7 +127,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
+&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Web Programming&lt;/li&gt;
@@ -47,7 +141,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;course-content&quot;&gt;Course content&lt;/h3&gt;
+&lt;h1 id=&quot;course-content&quot;&gt;Course content&lt;/h1&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -70,81 +164,97 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;grading&quot;&gt;Grading&lt;/h3&gt;
+&lt;h1 id=&quot;grading&quot;&gt;Grading&lt;/h1&gt;
 
 &lt;p&gt;This course will consist of Lab assignments, quizzes, lectures, chapter readings, presentations and discussions,  – each will contribute to your grades.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Chapter reading and Quizzes : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;25%&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;In-class Labs :  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;25%&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Athome Labs and mid-term exam : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50%&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;At-home Labs: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50%&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Due to the many code examples in the this lecture we opted to maintain the materials in a GitHub repository. The access to the course examples code will be provided with every lecture.&lt;/p&gt;
 
-&lt;h3 id=&quot;workload&quot;&gt;Workload&lt;/h3&gt;
+&lt;h1 id=&quot;workload&quot;&gt;Workload&lt;/h1&gt;
 
 &lt;p&gt;Students should be prepared to spent &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2-5 hours&lt;/code&gt; each week. While the course may initially start out demanding fewer hours, towards the middle, it will require more as many coding assignments will be published when we will reach Web service and Docker platform Labs.&lt;/p&gt;
 
-&lt;h3 id=&quot;assignments-submission&quot;&gt;Assignments submission&lt;/h3&gt;
+&lt;h1 id=&quot;assignments-submission&quot;&gt;Assignments submission&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Assignments will be due at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11:59PM&lt;/code&gt; on the day of the deadline.&lt;/li&gt;
-  &lt;li&gt;Chapter/Paper reading summaries (if requested) are due at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11:59PM&lt;/code&gt; the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later. Every Chapter reading might be subject to a 15 min quiz. Students are advised to read lecture slides content and download them &lt;em&gt;before&lt;/em&gt; the lecture starting time.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Assignments will be due at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11:59PM&lt;/code&gt; on the day of the deadline.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chapter/Paper reading summaries (if requested) are due at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11:59PM&lt;/code&gt; the night before class. Late summaries will not be accepted. Appropriate information on submission tool will be provided later.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Every Chapter reading might be subject to a quiz.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students are advised to read lecture slides content and download them &lt;strong&gt;before&lt;/strong&gt; the lecture starting time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each unsubmitted Lab assignment results in a loss of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5%&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;lab-submission&quot;&gt;Lab submission&lt;/h3&gt;
-
-&lt;p&gt;Each unsubmitted Lab assignment results in a loss of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5%&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;lecture-attendance-regulations&quot;&gt;Lecture attendance regulations&lt;/h3&gt;
+&lt;h1 id=&quot;lecture-attendance-regulations&quot;&gt;Lecture attendance regulations&lt;/h1&gt;
 
 &lt;p&gt;Each student must adhere with the following lecture attendance regulations:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Before lecture time :&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;before-lecture-time-&quot;&gt;Before lecture time :&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download lecture material files.&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download Lab assignments files and folders.&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download and install @home necessary software and tools.&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download and read assigned book chapters and papers. Students must read assigned book chapter before attending lecture.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download lecture material files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download Lab assignments files and folders.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download and install @home necessary software and tools.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Download and read assigned book chapters and papers. Students must read assigned book chapter before attending lecture.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;During Lecture :&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;during-lecture-&quot;&gt;During Lecture :&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Don’t be late. No more than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt; minutes delay will be accepted to attend lecture.&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;As major part of the lecture will require an internet access, - specially when we will reach the service invocation and Docker platform chapter, students are advised to have their own internet access as some parts of the course require heavy internet access.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Don’t be late. No more than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt; minutes delay will be accepted to attend lecture.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;As major part of the lecture will require an internet access, - specially when we will reach the service invocation and Docker platform chapter, students are advised to have their own internet access as some parts of the course require heavy internet access.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Assignments : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToDo&lt;/code&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToRead&lt;/code&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;assignments--todo--toread--tocode&quot;&gt;Assignments : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToDo&lt;/code&gt; | &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToRead&lt;/code&gt; | &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode&lt;/code&gt;&lt;/h2&gt;
 
-&lt;p&gt;Every lecture will be subject to chapters to read, in class and at home labs to do.&lt;/p&gt;
+&lt;p&gt;Every lecture will be subject to Homework &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToDo&lt;/code&gt;, book Chapters/Papers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToRead&lt;/code&gt; and Labs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode&lt;/code&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToDo&lt;/code&gt;, will not be graded, but they are essential for understanding lecture content.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToRead&lt;/code&gt;, are book chapters and papers to read before attending course. They are subject to quizzes done during the coming lecture.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode&lt;/code&gt; are to be submitted.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToDo&lt;/code&gt; are essential for understanding lecture content and doing in-class labs. e.g., prerequisite tools installation, platform learning… They must be done before attending the lecture.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToRead&lt;/code&gt; are book chapters and papers to read before attending course. They are subject to quizzes and sum-up to be done during the coming lecture.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode&lt;/code&gt; are Labs to be submitted after the lecture. Submission process and deadlines are to be defined (TBD) with every Lab.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;textbooks&quot;&gt;Textbooks&lt;/h3&gt;
 
+&lt;p&gt;Several textbooks are required for this class. They are made available online on the course folder :&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;Several textbooks are required for this class. They are made available online on the course folder :&lt;/li&gt;
   &lt;li&gt;Chellammal Surianarayanan, Gopinath Ganapathy, Raj Pethuru, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Essentials of Microservices Architecture Paradigms, Applications&lt;/code&gt;, and Techniques, Taylor &amp;amp; Francis; 1st Edition 2019.&lt;/li&gt;
   &lt;li&gt;Poulton, Nigel. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Docker Deep Dive&lt;/code&gt;. JJNP Consulting Limited, 2018.&lt;/li&gt;
   &lt;li&gt;Nickoloff, Jeff. And Kuenzli, Stephen. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Docker in action&lt;/code&gt;. Manning Publications Co., 2019.&lt;/li&gt;
