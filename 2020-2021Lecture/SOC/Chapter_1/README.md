@@ -51,7 +51,7 @@
 
 	- A print screen of the Git-it desktop App indicating that you have done all the challenges and
 
-	- A print screen of your Github created repository. :warning: *Use your real name and family name as GitHub account*.
+	- A print screen of your Github created repository. :warning: *Use your real name as GitHub account*: recommended format : firstNameLastName
 
 Additional resources : 
 
