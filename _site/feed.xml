@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-22T21:53:26+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-23T08:49:21+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-1--demystifying-software-architecture&quot;&gt;Chapter 1 : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_1&quot;&gt;Demystifying Software Architecture&lt;/a&gt;&lt;/h1&gt;
 
@@ -10,13 +10,13 @@
 &lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;From : Ingeno, Joseph. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Software Architect’s Handbook&lt;/code&gt;. Packt Publishing Ltd, 2018.
+  &lt;li&gt;From : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_1/ToRead/Software%20Architect%E2%80%99s%20Handbook.pdf`&quot;&gt;Ingeno, Joseph. Software Architect’s Handbook, Packt Publishing Ltd, 2018.&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;strong&gt;Chap 7.&lt;/strong&gt; Software Architecture Patterns.&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;Chap 8.&lt;/strong&gt; Architecting Modern Applications.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;From : Richards, Mark. Ford, Neal. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fundamentals of Software Architecture&lt;/code&gt; (O’Reilly). 2020.
+  &lt;li&gt;From : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_1/ToRead/Fundamentals%20of%20Software%20Architecture.pdf&quot;&gt;Richards, Mark. Ford, Neal., Fundamentals of Software Architecture, O’Reilly. 2020.&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;strong&gt;Chap 9.&lt;/strong&gt; Foundations.&lt;/li&gt;
     &lt;/ul&gt;
@@ -36,23 +36,11 @@
 
     &lt;ul&gt;
       &lt;li&gt;🔗 Quick reference guides: &lt;a href=&quot;https://training.github.com/&quot;&gt;GitHub Cheat Sheet&lt;/a&gt;, &lt;a href=&quot;https://ndpsoftware.com/git-cheatsheet.html&quot;&gt;Visual Git Cheat Sheet&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;🔗 &lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;Git Book v2&lt;/a&gt;.
-        &lt;ul&gt;
-          &lt;li&gt;🔗 &lt;a href=&quot;https://www.youtube.com/watch?v=xuB1Id2Wxak&quot;&gt;Edureka Git Tutorial&lt;/a&gt;.&lt;/li&gt;
-          &lt;li&gt;🔗 &lt;a href=&quot;https://www.youtube.com/watch?v=SWYqp7iY_Tc&amp;amp;t=193s&quot;&gt;Git &amp;amp; GitHub Crash Course For Beginners&lt;/a&gt;.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;🔗 &lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;Git Book v2&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;🔗 &lt;a href=&quot;https://www.youtube.com/watch?v=xuB1Id2Wxak&quot;&gt;Edureka Git Tutorial&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;🔗 &lt;a href=&quot;https://www.youtube.com/watch?v=SWYqp7iY_Tc&amp;amp;t=193s&quot;&gt;Git &amp;amp; GitHub Crash Course For Beginners&lt;/a&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Preferred text editor:&lt;/p&gt;
-
-    &lt;p&gt;It is highly recommended to use :&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;🔗&lt;a href=&quot;https://code.visualstudio.com/docs/setup/setup-overview&quot;&gt;Visual studio code&lt;/a&gt; as it supports multiple extensions we will be using throughout this course.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;🔗&lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; can also be used.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;after-lecture-&quot;&gt;After lecture :&lt;/h2&gt;
@@ -79,6 +67,19 @@
         &lt;p&gt;⚠ &lt;em&gt;Use your real name as GitHub account&lt;/em&gt;: recommended format : firstNameLastName&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;preferred-text-editor&quot;&gt;Preferred text editor:&lt;/h2&gt;
+
+&lt;p&gt;It is highly recommended to use :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;🔗&lt;a href=&quot;https://code.visualstudio.com/docs/setup/setup-overview&quot;&gt;Visual studio code&lt;/a&gt; as it supports multiple extensions we will be using throughout this course.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🔗&lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; can also be used as it comes with basic Git and GitHub integration built in.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

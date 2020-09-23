@@ -16,11 +16,11 @@ The Web materials and resources of Chapter 1 are listed here.
 
 📚 **ToRead**
 
-1. From : Ingeno, Joseph. `Software Architect’s Handbook`. Packt Publishing Ltd, 2018.
+1. From : [Ingeno, Joseph. Software Architect’s Handbook, Packt Publishing Ltd, 2018.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_1/ToRead/Software%20Architect%E2%80%99s%20Handbook.pdf`)
    * **Chap 7.** Software Architecture Patterns.
    * **Chap 8.** Architecting Modern Applications.
-1. From : Richards, Mark. Ford, Neal. `Fundamentals of Software Architecture` (O’Reilly). 2020.
-* **Chap 9.** Foundations.
+2. From : [Richards, Mark. Ford, Neal., Fundamentals of Software Architecture, O’Reilly. 2020.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_1/ToRead/Fundamentals%20of%20Software%20Architecture.pdf)
+   * **Chap 9.** Foundations.
 
 
 📝 **ToDo**
@@ -33,16 +33,10 @@ The Web materials and resources of Chapter 1 are listed here.
 
   * 🔗 Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/), [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
   * 🔗 [Git Book v2](https://git-scm.com/book/en/v2).
-	* 🔗 [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
-	* 🔗 [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
- 
- - Preferred text editor:
- 
-	 It is highly recommended to use :
-
-  * 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview) as it supports multiple extensions we will be using throughout this course.
-
-  * 🔗[Atom](https://atom.io/) can also be used.
+  * 🔗 [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
+  * 🔗 [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
+  
+  
 
 ## After lecture : 
 
@@ -59,6 +53,15 @@ The Web materials and resources of Chapter 1 are listed here.
 	- A print screen of your Github created repository.
   
 	- ⚠ *Use your real name as GitHub account*: recommended format : firstNameLastName
+
+
+## Preferred text editor:
+  
+It is highly recommended to use :
+
+* 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview) as it supports multiple extensions we will be using throughout this course.
+
+* 🔗[Atom](https://atom.io/) can also be used as it comes with basic Git and GitHub integration built in.
 
 ## Additional resources :
 
