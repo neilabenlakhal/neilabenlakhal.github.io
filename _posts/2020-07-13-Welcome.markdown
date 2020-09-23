@@ -86,8 +86,8 @@ Students should be prepared to spent `2-5 hours` each week. While the course may
 
 Each student must adhere with the following lecture attendance regulations:
 
-## Before lecture time :
----
+# Before lecture time :
+
 
 - [x] Download lecture material files.
   
@@ -97,8 +97,8 @@ Each student must adhere with the following lecture attendance regulations:
   
 - [x] Download and read assigned book chapters and papers. Students must read assigned book chapter before attending lecture.
 
-## During Lecture :
----
+# During Lecture :
+
 
 - [x] Don't be late. No more than `10` minutes delay will be accepted to attend lecture.
   
