@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-23T09:22:54+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-28T20:41:27+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-1--demystifying-software-architecture&quot;&gt;Chapter 1 : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_1&quot;&gt;Demystifying Software Architecture&lt;/a&gt;&lt;/h1&gt;
 
@@ -92,7 +92,25 @@
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://try.github.io/&quot;&gt;Resources to learn Git&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 1 are listed here.</summary></entry><entry><title type="html">Service Oriented Computing (SoC) materials !</title><link href="http://localhost:4000/course/update/2020/09/16/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing (SoC) materials !" /><published>2020-09-16T20:40:12+01:00</published><updated>2020-09-16T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/16/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/16/Welcome.html">&lt;p&gt;The Web materials and resources of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020/2021 Service Oriented Computing (SOC)&lt;/code&gt; course at &lt;a href=&quot;http://www.enicarthage.rnu.tn/&quot;&gt;Enicarthage&lt;/a&gt; are listed here.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 1 are listed here.</summary></entry><entry><title type="html">Chapter 0: course Intro added !</title><link href="http://localhost:4000/course/update/2020/09/20/Welcome.html" rel="alternate" type="text/html" title="Chapter 0: course Intro added !" /><published>2020-09-20T17:40:12+01:00</published><updated>2020-09-20T17:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/20/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/20/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 0 are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-0--course-introduction&quot;&gt;Chapter 0 : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_0&quot;&gt;Course Introduction&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;chapter-synopsis&quot;&gt;Chapter synopsis&lt;/h2&gt;
+
+&lt;p&gt;*This chapter introduces the course and gives information about: *&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Grading&lt;/li&gt;
+  &lt;li&gt;Assignments&lt;/li&gt;
+  &lt;li&gt;class Attendance e policies&lt;/li&gt;
+  &lt;li&gt;textbooks and references&lt;/li&gt;
+  &lt;li&gt;Tools and homework submission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Course syllabus can be downloaded from here.&lt;/p&gt;
+
+&lt;p&gt;A tentative schedule is available here.&lt;/p&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 0 are listed here.</summary></entry><entry><title type="html">Service Oriented Computing (SoC) materials !</title><link href="http://localhost:4000/course/update/2020/09/16/Welcome.html" rel="alternate" type="text/html" title="Service Oriented Computing (SoC) materials !" /><published>2020-09-16T20:40:12+01:00</published><updated>2020-09-16T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/16/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/16/Welcome.html">&lt;p&gt;The Web materials and resources of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020/2021 Service Oriented Computing (SOC)&lt;/code&gt; course at &lt;a href=&quot;http://www.enicarthage.rnu.tn/&quot;&gt;Enicarthage&lt;/a&gt; are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;course-overview&quot;&gt;Course overview&lt;/h1&gt;
 

@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Chapter 0: course Intro added !"
+date:   2020-09-20 19:40:12 +0300
+categories: Course update
+---
+
+The Web materials and resources of Chapter 0 are listed here.
+
+# Chapter 0 : [Course Introduction](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_0)
+
+## Chapter synopsis
+
+*This chapter introduces the course and gives information about: *
+
+- Grading
+- Assignments 
+- class Attendance e policies 
+- textbooks and references
+- Tools and homework submission
+  
+Course syllabus can be downloaded from here.
+
+A tentative schedule is available here.
