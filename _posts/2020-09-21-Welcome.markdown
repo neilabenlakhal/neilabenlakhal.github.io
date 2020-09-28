@@ -25,7 +25,7 @@ The Web materials and resources of Chapter 1 are listed here.
 
 📝 **ToDo**
 
-* Objective : Get Familiarised with GiT.
+* Objective : Get familiarised with GiT.
 * First you need to create [GitHub.com account](http://github.com) : You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
 - You need to Learn:  how to create, clone a repository, push, pull add commit modifications to a remote repository, etc.
 
