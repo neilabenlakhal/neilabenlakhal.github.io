@@ -16,7 +16,7 @@ The Web materials and resources of Chapter 1 are listed here.
 
 📚 **ToRead**
 
-1. From : [Ingeno, Joseph. Software Architect’s Handbook, Packt Publishing Ltd, 2018.](../2020-2021Lecture/SOC/Chapter_1/ToRead/Software%20Architect’s%20Handbook.pdf)
+1. From : [Ingeno, Joseph. Software Architect’s Handbook, Packt Publishing Ltd, 2018.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_1/ToRead/Software%20Architect’s%20Handbook.pdf)
    * **Chap 7.** Software Architecture Patterns.
    * **Chap 8.** Architecting Modern Applications.
 2. From : [Richards, Mark. Ford, Neal., Fundamentals of Software Architecture, O’Reilly. 2020.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_1/ToRead/Fundamentals%20of%20Software%20Architecture.pdf)
