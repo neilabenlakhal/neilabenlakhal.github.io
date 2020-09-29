@@ -1,1 +1,1 @@
-Old lecture content avaiable is these folders.
+Old lecture content available in these folders.
