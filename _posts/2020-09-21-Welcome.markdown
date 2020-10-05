@@ -16,15 +16,22 @@ The Web materials and resources of Chapter 2 are listed here.
 
 📚 **ToRead**
 
-1. Objective : Get familiarized with XML, XSD (Review)
+Objective : Get familiarized with XML, XSD (Review)
 
-2. From : [Building Web Services with Java, Second Edition](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Building%20Web%20Services%20with%20Java%20Making%20Sense%20of%20XML,%20SOAP,%20WSDL.pdf)
-   * **Chap 2.** XML Primer.
+1. From [XML Visual quick start guide, 2nd edition](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/XML%20Visual%20QuickStart%20Guide%202nd%20Edition.pdf)
+   * **Part 1.** XML
+   * **Part 4.** XML schema
+   * **Part 5.** Namespaces
+1.From [Web services : principles and technology, Michael Papazoglou](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20services%20%20principles%20and%20technology.pdf)
+   * **Chap 1.** Web services basics
+   * **Chap 3.** Brief overview of XML
+1. From [Web Services, Service-Oriented Architectures, and Cloud Computing 2nd Edition 2013](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20Services,%20Service-Oriented%20Architectures,%20and%20Cloud%20Computing.pdf)
+   * **Chap 3.** Web Services and Service-Oriented Architectures.
+  
 
-3. [Pdf Slides (old lecture content)]((https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/Old_Stuff/2018-2019Lecture/SOC/Slides/()
+📝 **ToDo**
 
-
-4. Learning Objectives:
+- Learning Objectives:
 
   - Understand the rules of XML syntax
   - Author an XML document
@@ -35,58 +42,25 @@ The Web materials and resources of Chapter 2 are listed here.
   - Complex Types
   - Validate an XML document against an existing schema
 
-XML editor: [VS Code ](https://code.visualstudio.com/) with [RedHat extension](https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/)
+- Access the following resources and get familiarized with XML and XML schema :
 
-
-
-
-
-
-Additional resources
- XML Technology (W3C) https://www.w3.org/standards/xml/, W3schools XML tutorials   https://www.w3schools.com/xml/, 
-XML Master http://www.xmlmaster.org/en/article/d01/ (Volume 1-6, volume 10)
-XML Schema 1.1 by Altova http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html
-
-Learning Objectives
-Understand the rules of XML syntax
-Author an XML document
-XML Namespaces
-XML Schema Core Concepts
-Built-in Data types
-User-defined Simple Types
-Complex Types
-Validate an XML document against an existing schema
-
-
-
-📝 **ToDo**
-
-* Objective : Get familiarised with GiT.
-* First you need to create [GitHub.com account](http://github.com) : You can use the command line, and install [Git](https://git-scm.com/downloads) (the version control software GitHub is built on) or download [GitHub Desktop](https://desktop.github.com/) or work from Github Web interface.
-- You need to Learn:  how to create, clone a repository, push, pull add commit modifications to a remote repository, etc.
-
-- You can use theses resources : 
-
-  * 🔗 Quick reference guides: [GitHub Cheat Sheet](https://training.github.com/), [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html).
-  * 🔗 [Git Book v2](https://git-scm.com/book/en/v2).
-  * 🔗 [Edureka Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak).
-  * 🔗 [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=193s).
+  * Altova web site and do [Altova XML schema Online Training](http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html).
   
-  
+  * [Pdf Slides (old lecture content)](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/Old_Stuff/2018-2019Lecture/SOC/Slides/0-XML%20DTD%20et%20Schema%20XML.pdf)
+
 
 ## After lecture : 
 
 💻 **ToCode** 
 
-- Install [Git-it (Desktop App)](https://github.com/jlord/git-it-electron/releases) : Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line. It contains a set of challenges for learning Git and GitHub—by using real Git and GitHub. You'll be learning Git command lines and GitHub which means when you finish all of the challenges you'll have real repositories on your GitHub account.
+- Access Microsoft teams and do the TP XML Assignments. 
 
 - What to submit ?
 
-	Upon finishing the challenges, submit : 
+	Upon finishing your assignment submit : 
 
-	- A print screen of the Git-it desktop App indicating that you have done all the challenges and
 
-	- A print screen of your Github created repository.
+	- Azip
   
 	- ⚠ *Use your real name as GitHub account*: recommended format : firstNameLastName
 
@@ -98,8 +72,9 @@ It is highly recommended to use :
 * 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview)  with RedHat extension (https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/)
 
 
-## Additional resources :
+## Additional resources:
 
-- [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources).
-
-- [Resources to learn Git](https://try.github.io/).
+- 🔗[XML Technology (W3C)](https://www.w3.org/standards/xml/), 
+- 🔗[W3schools XML tutorials](https://www.w3schools.com/xml/), 
+- 🔗[XML Master: (Volume 1-6, volume 10)](http://www.xmlmaster.org/en/article/d01/)
+- 🔗[XML Schema 1.1 by Altova](http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html)
