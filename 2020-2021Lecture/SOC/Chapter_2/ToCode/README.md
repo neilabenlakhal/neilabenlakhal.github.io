@@ -40,7 +40,7 @@ Mettez le dernier paragraphe du dernier chapitre de la dernière section sans es
 
 ### Exercice 5: 
 
-Validation d’un document XML par rapport à un schéma
+Validation d’un document XML par rapport à un schéma : 
 
 `<?xml version="1.0" encoding="utf-8" ?> <Club clubId="ACM">
 
