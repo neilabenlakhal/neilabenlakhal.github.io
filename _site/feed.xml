@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-03T19:42:32+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-06T20:20:07+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 2 added !</title><link href="http://localhost:4000/course/update/2020/09/23/Welcome.html" rel="alternate" type="text/html" title="Chapter 2 added !" /><published>2020-09-23T20:40:12+01:00</published><updated>2020-09-23T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/23/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/23/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 2 are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-2-service-oriented-architecture-soa&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_2&quot;&gt;Chapter 2, Service-Oriented Architecture (SOA)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;chapter-synopsis&quot;&gt;Chapter synopsis&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Demystifies the popular service-oriented architecture (SOA) patterns that produce service-oriented applications. This chapter provides details on the principles and key concepts of SOA. From this chapter, students will understand the purpose of SOA, the technologies and protocols (web services) used for SOA, and the typical use cases of SOA. Ultimately, students will get to know the deployment difficulties associated with SOA applications.*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h2&gt;
+
+&lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Objective : Get familiarized with XML, XSD (Review)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/XML%20Visual%20QuickStart%20Guide%202nd%20Edition.pdf&quot;&gt;XML Visual quick start guide, 2nd edition&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Part 1.&lt;/strong&gt; XML&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Part 4.&lt;/strong&gt; XML schema&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Part 5.&lt;/strong&gt; Namespaces
+1.From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20services%20%20principles%20and%20technology.pdf&quot;&gt;Web services : principles and technology, Michael Papazoglou&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1.&lt;/strong&gt; Web services basics&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 3.&lt;/strong&gt; Brief overview of XML&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20Services,%20Service-Oriented%20Architectures,%20and%20Cloud%20Computing.pdf&quot;&gt;Web Services, Service-Oriented Architectures, and Cloud Computing 2nd Edition 2013&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 3.&lt;/strong&gt; Web Services and Service-Oriented Architectures.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;📝 &lt;strong&gt;ToDo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learning Objectives:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Understand the rules of XML syntax&lt;/li&gt;
+      &lt;li&gt;Author an XML document&lt;/li&gt;
+      &lt;li&gt;XML Namespaces&lt;/li&gt;
+      &lt;li&gt;XML Schema Core Concepts&lt;/li&gt;
+      &lt;li&gt;Built-in Datatypes&lt;/li&gt;
+      &lt;li&gt;User-defined Simple Types&lt;/li&gt;
+      &lt;li&gt;Complex Types&lt;/li&gt;
+      &lt;li&gt;Validate an XML document against an existing schema&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Access the following resources and get familiarized with XML and XML schema :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Altova web site and do &lt;a href=&quot;http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html&quot;&gt;Altova XML schema Online Training&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/Old_Stuff/2018-2019Lecture/SOC/Slides/0-XML%20DTD%20et%20Schema%20XML.pdf&quot;&gt;Pdf Slides (old lecture content)&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;after-lecture-&quot;&gt;After lecture :&lt;/h2&gt;
+
+&lt;p&gt;💻 &lt;strong&gt;ToCode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Access Microsoft teams and do the TP XML Assignments.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What to submit ?&lt;/p&gt;
+
+    &lt;p&gt;Upon finishing your assignment submit :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Azip&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;⚠ &lt;em&gt;Use your real name as GitHub account&lt;/em&gt;: recommended format : firstNameLastName&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;preferred-text-editor&quot;&gt;Preferred text editor:&lt;/h2&gt;
+
+&lt;p&gt;It is highly recommended to use :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;https://code.visualstudio.com/docs/setup/setup-overview&quot;&gt;Visual studio code&lt;/a&gt;  with RedHat extension (https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional resources:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;https://www.w3.org/standards/xml/&quot;&gt;XML Technology (W3C)&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;https://www.w3schools.com/xml/&quot;&gt;W3schools XML tutorials&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;http://www.xmlmaster.org/en/article/d01/&quot;&gt;XML Master: (Volume 1-6, volume 10)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html&quot;&gt;XML Schema 1.1 by Altova&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 2 are listed here.</summary></entry><entry><title type="html">Chapter 1 added !</title><link href="http://localhost:4000/course/update/2020/09/22/Welcome.html" rel="alternate" type="text/html" title="Chapter 1 added !" /><published>2020-09-22T20:40:12+01:00</published><updated>2020-09-22T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/22/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/22/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 1 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-1--demystifying-software-architecture&quot;&gt;Chapter 1 : &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_1&quot;&gt;Demystifying Software Architecture&lt;/a&gt;&lt;/h1&gt;
 
