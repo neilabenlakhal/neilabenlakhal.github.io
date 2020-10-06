@@ -42,20 +42,24 @@ Mettez le dernier paragraphe du dernier chapitre de la dernière section sans es
 
 Validation d’un document XML par rapport à un schéma: 
 
-`<?xml version="1.0" encoding="utf-8" ?><Club clubId="ACM">
-<Member id="_12345" clubs="ACM"><Name>
-<FirstName>WEB</FirstName>
-<MiddleInitial>H</MiddleInitial>
-<LastName>DO</LastName>
-</Name>
-</Member>
+```xml 
+<?xml version="1.0" encoding="utf-8" ?>
+<Club clubId="ACM">
+   <Member id="_12345" clubs="ACM">
+   <Name>
+      <FirstName>WEB</FirstName>
+      <MiddleInitial>H</MiddleInitial>
+      <LastName>DO</LastName>
+   </Name>
+   </Member>
 </Club>`
 
 Enregistrer le document XML ci-dessous sous le nom `club.xml` et vérifiez qu’il est conforme.
 
 Enregistrer le schéma suivant et reliez-le au fichier xml `club.xml` pour qu’il soit valide par rapport à ce schéma :
 
-`<?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <!-- Define the elements that make up a Member's Name --> <!-- Define a Member -->
 <xs:element name="Member">
@@ -95,14 +99,15 @@ Faites les modifications suivantes au schéma et au document xml :
  
 Soit un document XML contenant un nombre indéterminé d’éléments sous la forme :
 
-`<contact titre="..." techno="...">
+```xml
+<contact titre="..." techno="...">
 <nom>...</nom>
 <prenom>...</prenom>
 <telephone> ...</telephone> 
 <email>...</email>
 <email>...</email>
 ...
-</contact>`
+</contact>
 
 L’élément **telephone** et l’attribut **techno** sont en option. Les textes seront des chaînes simples `xs:string`.
 
