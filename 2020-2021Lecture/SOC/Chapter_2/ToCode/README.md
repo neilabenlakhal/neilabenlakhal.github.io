@@ -29,13 +29,13 @@ Vérifiez, à l’aide de l’éditeur, que votre document est bien formé.
 *Utilisation des entités prédéfinies*
 
 On se propose de créer un nouveau document livre2bis.xml reprenant l’exercice précédent(livre2.xml). Placez dans 2 paragraphes un bloc de texte contenant l’extrait suivant :
-`<element id="10">></element>`. Pour le premier paragraphe, employez les entités prédéfinies.Pour le deuxième paragraphe, employez une section `CDATA`.
+``` xml <element id="10">></element> ```. Pour le premier paragraphe, employez les entités prédéfinies.Pour le deuxième paragraphe, employez une section `CDATA`.
 
 ### Exercice 4
 
 Utilisation des espaces de noms par défaut et avec préfixe
-Il s’agit de créer un document livre3.xml sur la base de livre1.xml en respectant les points suivants : Mettez tous les éléments dans l’espace de noms `http://www.masociete.com`sans utiliser d’espace de noms par défaut.
-Mettez la deuxième section dans un espace de noms `http://www.monentreprise.com`.
+Il s’agit de créer un document livre3.xml sur la base de livre1.xml en respectant les points suivants : Mettez tous les éléments dans l’espace de noms ``` xml http://www.masociete.com```sans utiliser d’espace de noms par défaut.
+Mettez la deuxième section dans un espace de noms ``` xml http://www.monentreprise.com```.
 Mettez le dernier paragraphe du dernier chapitre de la dernière section sans espace de noms.
 
 ### Exercice 5: 
@@ -52,7 +52,8 @@ Validation d’un document XML par rapport à un schéma:
       <LastName>DO</LastName>
    </Name>
    </Member>
-</Club>`
+</Club>
+```
 
 Enregistrer le document XML ci-dessous sous le nom `club.xml` et vérifiez qu’il est conforme.
 
@@ -85,7 +86,8 @@ Enregistrer le schéma suivant et reliez-le au fichier xml `club.xml` pour qu’
 <xs:element name="MiddleInitial" type="xs:string" />
 <xs:element name="LastName" type="xs:string" /> </xs:sequence>
 </xs:complexType>
-</xs:schema>`
+</xs:schema>
+```
 
 Faites les modifications suivantes au schéma et au document xml : 
 
@@ -109,6 +111,7 @@ Soit un document XML contenant un nombre indéterminé d’éléments sous la fo
 ...
 </contact>
 
+```
 L’élément **telephone** et l’attribut **techno** sont en option. Les textes seront des chaînes simples `xs:string`.
 
 Vous utiliserez les types complexes **numerosType** et **contactType** pour construire un schéma nommé `annuaire.xsd`.
