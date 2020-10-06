@@ -76,7 +76,7 @@ Access the following resources and get familiarized with XML and XML schema by d
   
 It is highly recommended to use :
 
-* 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview)  with [RedHat extension.](https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/). This extension will help you with XML validation.
+* 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview)  with [RedHat extension](https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/). This extension will help you with XML validation.
 
 ## Additional resources:
 
