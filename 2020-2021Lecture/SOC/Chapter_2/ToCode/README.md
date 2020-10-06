@@ -1,10 +1,7 @@
 
-## ToCode2 : XML Exercices 
+## ToCode2 :  XML Exercises 
 
-
-## XML Exercises 
-
-Do the following exercises and save files in a Folder under your Github Account. Name the repository folder `ToCode2`.  Share with me via Microsoft team the repository address and content.
+Do the following exercises and save files in a Folder under your Github Account. Name the repository folder `ToCode2`.  Share with me via Microsoft team the repository URL and content.
 
 ### Exercice 1
 
@@ -46,12 +43,19 @@ Mettez le dernier paragraphe du dernier chapitre de la dernière section sans es
 Validation d’un document XML par rapport à un schéma
 
 `<?xml version="1.0" encoding="utf-8" ?> <Club clubId="ACM">
+
 <Member id="_12345" clubs="ACM"> <Name>
+
          <FirstName>WEB</FirstName>
+         
          <MiddleInitial>H</MiddleInitial>
+         
          <LastName>DO</LastName>
+         
       </Name>
+      
    </Member>
+   
 </Club>`
 
 Enregistrer le document XML ci-dessous sous le nom `club.xml` et vérifiez qu’il est conforme.
@@ -59,14 +63,24 @@ Enregistrer le document XML ci-dessous sous le nom `club.xml` et vérifiez qu’
 Enregistrer le schéma suivant et reliez-le au fichier xml `club.xml` pour qu’il soit valide par rapport à ce schéma :
 
 `<?xml version="1.0" encoding="utf-8"?>
+
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
 <!-- Define the elements that make up a Member's Name --> <!-- Define a Member -->
+
 <xs:element name="Member">
+
 <xs:complexType>
+
 <xs:sequence>
+
 <xs:element name="Name" type="NameType" />
+
 </xs:sequence>
-<xs:attribute name="id" type="xs:ID" use="required" /> <xs:attribute name="clubs" type="xs:IDREFS" use="optional" /> </xs:complexType>
+
+<xs:attribute name="id" type="xs:ID" use="required" /> 
+<xs:attribute name="clubs" type="xs:IDREFS" use="optional" /> 
+</xs:complexType>
 </xs:element>
 <!-- Define the Club root element -->
 <xs:element name="Club">
@@ -96,8 +110,12 @@ Faites les modifications suivantes au schéma et au document xml :
  
 Soit un document XML contenant un nombre indéterminé d’éléments sous la forme :
 
-`<contact titre="..." techno="..."> <nom>...</nom> <prenom>...</prenom>
-<telephone> ...</telephone> <email>...</email> <email>...</email>
+`<contact titre="..." techno="...">
+<nom>...</nom>
+<prenom>...</prenom>
+<telephone> ...</telephone> 
+<email>...</email>
+<email>...</email>
 ...
 </contact>`
 
