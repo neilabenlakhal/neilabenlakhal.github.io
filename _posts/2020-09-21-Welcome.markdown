@@ -58,9 +58,7 @@ Access the following resources and get familiarized with XML and XML schema by d
 
 💻 **ToCode** 
 
-- Access the following XML Assignments and submit them on microsoft teams. 
-
-
+- Access the following [XML Assignments](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToCode/README.md) and submit them on microsoft teams. 
 
 - What to submit ?
 
