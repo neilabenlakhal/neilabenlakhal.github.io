@@ -1,9 +1,9 @@
 
-## ToCode2 :  XML Exercises 
+# ToCode2 :  XML Exercises
 
 Do the following exercises and save files in a Folder under your Github Account. Name the repository folder `ToCode2`.  Share with me via Microsoft team the repository URL and content.
 
-### Exercice 1
+## Exercice 1
 
 *Création d’un livre en XML*
 
@@ -29,33 +29,26 @@ Vérifiez, à l’aide de l’éditeur, que votre document est bien formé.
 *Utilisation des entités prédéfinies*
 
 On se propose de créer un nouveau document livre2bis.xml reprenant l’exercice précédent(livre2.xml). Placez dans 2 paragraphes un bloc de texte contenant l’extrait suivant :
-` <element id="10">></element>`. Pour le premier paragraphe, employez les entités prédéfinies.Pour le deuxième paragraphe, employez une section `CDATA`.
+`<element id="10">></element>`. Pour le premier paragraphe, employez les entités prédéfinies.Pour le deuxième paragraphe, employez une section `CDATA`.
 
 ### Exercice 4
 
 Utilisation des espaces de noms par défaut et avec préfixe
-Il s’agit de créer un document livre3.xml sur la base de livre1.xml en respectant les points suivants : Mettez tous les éléments dans l’espace de noms `http://www.masociete.com `sans utiliser d’espace de noms par défaut.
-Mettez la deuxième section dans un espace de noms h`ttp://www.monentreprise.com`.
+Il s’agit de créer un document livre3.xml sur la base de livre1.xml en respectant les points suivants : Mettez tous les éléments dans l’espace de noms `http://www.masociete.com`sans utiliser d’espace de noms par défaut.
+Mettez la deuxième section dans un espace de noms `http://www.monentreprise.com`.
 Mettez le dernier paragraphe du dernier chapitre de la dernière section sans espace de noms.
 
 ### Exercice 5: 
 
-Validation d’un document XML par rapport à un schéma : 
+Validation d’un document XML par rapport à un schéma: 
 
-`<?xml version="1.0" encoding="utf-8" ?> <Club clubId="ACM">
-
-<Member id="_12345" clubs="ACM"> <Name>
-
-         <FirstName>WEB</FirstName>
-         
-         <MiddleInitial>H</MiddleInitial>
-         
-         <LastName>DO</LastName>
-         
-      </Name>
-      
-   </Member>
-   
+`<?xml version="1.0" encoding="utf-8" ?><Club clubId="ACM">
+<Member id="_12345" clubs="ACM"><Name>
+<FirstName>WEB</FirstName>
+<MiddleInitial>H</MiddleInitial>
+<LastName>DO</LastName>
+</Name>
+</Member>
 </Club>`
 
 Enregistrer le document XML ci-dessous sous le nom `club.xml` et vérifiez qu’il est conforme.
@@ -63,21 +56,13 @@ Enregistrer le document XML ci-dessous sous le nom `club.xml` et vérifiez qu’
 Enregistrer le schéma suivant et reliez-le au fichier xml `club.xml` pour qu’il soit valide par rapport à ce schéma :
 
 `<?xml version="1.0" encoding="utf-8"?>
-
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
 <!-- Define the elements that make up a Member's Name --> <!-- Define a Member -->
-
 <xs:element name="Member">
-
 <xs:complexType>
-
 <xs:sequence>
-
 <xs:element name="Name" type="NameType" />
-
 </xs:sequence>
-
 <xs:attribute name="id" type="xs:ID" use="required" /> 
 <xs:attribute name="clubs" type="xs:IDREFS" use="optional" /> 
 </xs:complexType>
