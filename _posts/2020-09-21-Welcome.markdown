@@ -24,7 +24,7 @@ Objective : Get familiarized with XML, XSD (Review)
    * **Part 4.** XML schema
    * **Part 5.** Namespaces 
   
-1. From [Web services : principles and technology, Michael Papazoglou](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20services%20%20principles%20and%20technology.pdf)
+1. From [Web services : principles and technology](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20services%20%20principles%20and%20technology.pdf)
    * **Chap 1.** Web services basics
    * **Chap 3.** Brief overview of XML
   
@@ -64,24 +64,24 @@ Access the following resources and get familiarized with XML and XML schema by d
 
 - What to submit ?
 
-	Upon finishing your assignment submit : 
-	- Create a folder and Name it ToCode2. 
-	- Push the folder content to your Github account.
-	- Send me the repository URL.
-	- ⚠ *Use your real name as GitHub account*: recommended format : firstNameLastName
+	Upon finishing your assignment : 
+	- Create a Folder and Name it **ToCode2**. 
+	- Push the Folder content to your Github account.
+	- Send me the repository URL using microsoft team.
+	- ⚠ *Use your real name as GitHub account*: recommended format : **firstNameLastName**.
+
 
 
 ## Preferred text editor:
   
 It is highly recommended to use :
 
-* 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview)  with RedHat extension (https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/)
-
+* 🔗[Visual studio code](https://code.visualstudio.com/docs/setup/setup-overview)  with [RedHat extension.](https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/). This extension will help you with XML validation.
 
 ## Additional resources:
 
-- 🔗[XML Technology (W3C)](https://www.w3.org/standards/xml/), 
-- 🔗[W3schools XML tutorials](https://www.w3schools.com/xml/), 
-- 🔗[XML Master: (Volume 1-6, volume 10)](http://www.xmlmaster.org/en/article/d01/)
-- 🔗[XML Schema 1.1 by Altova](http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html)
-- 🔗[PerfectXML](http://perfectxml.com/FreeLibrary2.asp?s=XML)
+- 🔗[XML Technology (W3C).](https://www.w3.org/standards/xml/)
+- 🔗[W3schools XML tutorials.](https://www.w3schools.com/xml/)
+- 🔗[XML Master: (Volume 1-6, volume 10).](http://www.xmlmaster.org/en/article/d01/)
+- 🔗[XML Schema 1.1 by Altova.](http://altova-aot.s3.amazonaws.com/Altova%20XML%20Schema%201.1%20Technology/player.html)
+- 🔗[PerfectXML.](http://perfectxml.com/FreeLibrary2.asp?s=XML)
