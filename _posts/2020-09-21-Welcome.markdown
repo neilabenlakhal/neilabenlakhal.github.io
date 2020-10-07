@@ -63,13 +63,13 @@ Access the following resources and get familiarized with XML and XML schema by d
 - What to submit ?
 Create an xml file for every exercise. Put all files in a folder.
 
-Upon finishing your assignment : 
+- Upon finishing your assignment :
+
 	- Name your working directory as **ToCode2**. 
+  
 	- Push the **toCode2** Folder content to your Github account.
 	- Send me the repository URL using microsoft team (write it down in a .txt file) or send me a share repository invite to mail e-mail : neila.benlakhal@gmail.com.
 	- ⚠ *Use your real name as GitHub account*: recommended format : **firstNameLastName**.
-
-
 
 ## Preferred text editor:
   
