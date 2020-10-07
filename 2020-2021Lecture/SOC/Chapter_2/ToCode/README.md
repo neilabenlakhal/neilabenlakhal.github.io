@@ -1,17 +1,21 @@
 
-# ToCode2 :  XML Exercises
+# ToCode2 
+
+## XML Exercises
 
 Do the following exercises and save files in a Folder under your Github Account. Name the repository folder `ToCode2`.  Share with me via Microsoft team the repository URL and content.
+
+---
 
 ### Exercice 1
 
 *Création d’un livre en XML*
 
 On souhaite écrire un livre en utilisant le formalisme XML. Le livre est structuré en sections (au moins 2), en chapitres (au moins 2) et en paragraphes (au moins 2).
-Le livre doit contenir la liste des auteurs (avec nom et prénom).
-Tous les éléments doivent posséder un titre, sauf le paragraphe qui contient du texte.
-Proposer une structuration XML de ce document (avec 2 auteurs, 2 sections, 2 chapitres par section et 2 paragraphes par chapitre).
-Vérifier, à l’aide de l’éditeur, que votre document est bien formé.
+- Le livre doit contenir la liste des auteurs (avec nom et prénom).
+- Tous les éléments doivent posséder un titre, sauf le paragraphe qui contient du texte.
+- Proposer une structuration XML de ce document (avec 2 auteurs, 2 sections, 2 chapitres par section et 2 paragraphes par chapitre).
+- Vérifier, à l’aide de l’éditeur, que votre document est bien formé.
 Attention : ne pas utiliser d’attributs ; l’encodage utilisé est ISO-8859-1.
 Votre document sera nommé `Livre1.xml`.
 
@@ -38,7 +42,7 @@ Utilisation des espaces de noms par défaut et avec préfixe
 Il s’agit de créer un document `livre3.xml` sur la base de `livre1.xml` en respectant les points suivants : 
 - Mettre tous les éléments dans l’espace de noms ``` xml http://www.masociete.com```sans utiliser d’espace de noms par défaut.
 - Mettre la deuxième section dans un espace de noms ``` xml http://www.monentreprise.com```.
--Mettre le dernier paragraphe du dernier chapitre de la dernière section sans espace de noms.
+- Mettre le dernier paragraphe du dernier chapitre de la dernière section sans espace de noms.
 
 ### Exercice 5
 
@@ -64,7 +68,8 @@ Enregistrer le schéma suivant et relier-le au fichier xml `club.xml` pour qu’
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<!-- Define the elements that make up a Member's Name --> <!-- Define a Member -->
+<!-- Define the elements that make up a Member's Name -->
+<!-- Define a Member -->
 <xs:element name="Member">
 <xs:complexType>
 <xs:sequence>
@@ -80,13 +85,15 @@ Enregistrer le schéma suivant et relier-le au fichier xml `club.xml` pour qu’
 <xs:sequence>
 <xs:element ref="Member" />
 </xs:sequence>
-<xs:attribute name="clubId" type="xs:ID" use="required" /> </xs:complexType>
+<xs:attribute name="clubId" type="xs:ID" use="required" />
+</xs:complexType>
 </xs:element>
 <xs:complexType name="NameType" >
 <xs:sequence>
 <xs:element name="FirstName" type="xs:string" />
 <xs:element name="MiddleInitial" type="xs:string" />
-<xs:element name="LastName" type="xs:string" /> </xs:sequence>
+<xs:element name="LastName" type="xs:string" />
+</xs:sequence>
 </xs:complexType>
 </xs:schema>
 ```

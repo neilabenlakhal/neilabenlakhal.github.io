@@ -1,3 +1,5 @@
-### Service Oriented Computing lecture (SOC_2020-2021) materials repository.
+### SOC_2020-2021
 
-© By Neila BEN LAKHAL.
+Service Oriented Computing (SOC_2020-2021) lecture materials repository.
+
+© By Dr. Neila BEN LAKHAL.
