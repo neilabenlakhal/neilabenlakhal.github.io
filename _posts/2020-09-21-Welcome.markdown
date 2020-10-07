@@ -61,11 +61,12 @@ Access the following resources and get familiarized with XML and XML schema by d
 - Access the following [XML Assignments](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToCode/README.md) and submit them on microsoft teams. 
 
 - What to submit ?
+Create an xml file for every exercise. Put all files in a folder.
 
-	Upon finishing your assignment : 
-	- Create a Folder and Name it **ToCode2**. 
-	- Push the Folder content to your Github account.
-	- Send me the repository URL using microsoft team.
+Upon finishing your assignment : 
+	- Name your working directory as **ToCode2**. 
+	- Push the **toCode2** Folder content to your Github account.
+	- Send me the repository URL using microsoft team (write it down in a .txt file) or send me a share repository invite to mail e-mail : neila.benlakhal@gmail.com.
 	- ⚠ *Use your real name as GitHub account*: recommended format : **firstNameLastName**.
 
 
