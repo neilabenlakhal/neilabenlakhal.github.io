@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-07T17:11:00+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 2 added !</title><link href="http://localhost:4000/course/update/2020/09/23/Welcome.html" rel="alternate" type="text/html" title="Chapter 2 added !" /><published>2020-09-23T20:40:12+01:00</published><updated>2020-09-23T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/23/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/23/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 2 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-07T17:13:19+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 2 added !</title><link href="http://localhost:4000/course/update/2020/09/23/Welcome.html" rel="alternate" type="text/html" title="Chapter 2 added !" /><published>2020-09-23T20:40:12+01:00</published><updated>2020-09-23T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/23/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/23/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 2 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-2-service-oriented-architecture-soa&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_2&quot;&gt;Chapter 2, Service-Oriented Architecture (SOA)&lt;/a&gt;&lt;/h1&gt;
 
@@ -72,22 +72,13 @@
   &lt;li&gt;
     &lt;p&gt;Access the following &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToCode/README.md&quot;&gt;XML Assignments&lt;/a&gt; and submit them on microsoft teams.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What to submit ?
-Create an xml file for every exercise. Put all files in a folder.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Upon finishing your assignment :&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Name your working directory as &lt;strong&gt;ToCode2&lt;/strong&gt;.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Push the &lt;strong&gt;toCode2&lt;/strong&gt; Folder content to your Github account.&lt;/li&gt;
-      &lt;li&gt;Send me the repository URL using microsoft team (write it down in a .txt file) or send me a share repository invite to mail e-mail : neila.benlakhal@gmail.com.&lt;/li&gt;
-      &lt;li&gt;⚠ &lt;em&gt;Use your real name as GitHub account&lt;/em&gt;: recommended format : &lt;strong&gt;firstNameLastName&lt;/strong&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;What to submit ?&lt;/li&gt;
+  &lt;li&gt;Create an xml file for every exercise. Put all files in a folder.&lt;/li&gt;
+  &lt;li&gt;Upon finishing your assignment :&lt;/li&gt;
+  &lt;li&gt;Name your working directory as &lt;strong&gt;ToCode2&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Push the &lt;strong&gt;toCode2&lt;/strong&gt; Folder content to your Github account.&lt;/li&gt;
+  &lt;li&gt;Send me the repository URL using microsoft team (write it down in a .txt file) or send me a share repository invite to my e-mail : neila.benlakhal@gmail.com.&lt;/li&gt;
+  &lt;li&gt;⚠ &lt;em&gt;Use your real name as GitHub account&lt;/em&gt;: recommended format : &lt;strong&gt;firstNameLastName&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;preferred-text-editor&quot;&gt;Preferred text editor:&lt;/h2&gt;
