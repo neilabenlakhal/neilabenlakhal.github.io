@@ -55,21 +55,21 @@ In order to test web services we will be using :
 
 Clone the following client on your machine : https://github.com/neilabenlakhal/webservice1.git
 
-- Install required software
+- Install required softwares (SOAPUI, AMPPS, NUSOAP).
 
-- Test the code om your machine and make sure it is working properly
+- Test the code on your machine and make sure it is working properly.
 
-- Run SOAPUI test of several SOAP web services 
+- Run `SOAPUI` test of several SOAP web services (see additional resources section).
 
-- Choose one SOAP web service and test it with SOAPUI then write a client to call it (PHP)
+- Choose one SOAP web service and test it with `SOAPUI` then,  write a client to call it (write a PHP client using NUSOAP class).
 
-- Push your web service with print screen of your SOAPUI tests to your repository 
+- Push your Web service client code and  with print screens of your SOAPUI tests to your `GIT` repository. 
 
-Send the following on microsoft teams :
+Send the following on Microsoft Teams :
 
-- Link of your web service client (git repository)
+- Link of your Web service client (git repository)
 
-- Print screens of SOAPUI test
+- Print screens of SOAPUI tests (successful test + faulty test)
 
 ## Preferred text editor:
   
