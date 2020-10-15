@@ -53,7 +53,23 @@ In order to test web services we will be using :
 
 💻 **ToCode** 
 
-Will be published later when we will finish the chapter.
+Clone the following client on your machine : https://github.com/neilabenlakhal/webservice1.git
+
+- Install required software
+
+- Test the code om your machine and make sure it is working properly
+
+- Run SOAPUI test of several SOAP web services 
+
+- Choose one SOAP web service and test it with SOAPUI then write a client to call it (PHP)
+
+- Push your web service with print screen of your SOAPUI tests to your repository 
+
+Send the following on microsoft teams :
+
+- Link of your web service client (git repository)
+
+- Print screens of SOAPUI test
 
 ## Preferred text editor:
   
