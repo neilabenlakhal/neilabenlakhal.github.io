@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-07T17:13:19+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 2 added !</title><link href="http://localhost:4000/course/update/2020/09/23/Welcome.html" rel="alternate" type="text/html" title="Chapter 2 added !" /><published>2020-09-23T20:40:12+01:00</published><updated>2020-09-23T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/23/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/23/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 2 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-15T22:41:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 3 added !</title><link href="http://localhost:4000/course/update/2020/10/13/Welcome.html" rel="alternate" type="text/html" title="Chapter 3 added !" /><published>2020-10-13T08:40:12+01:00</published><updated>2020-10-13T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/10/13/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/10/13/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 3 are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-3-web-services-core-functionality-and-standards&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_3&quot;&gt;Chapter 3, Web Services-Core functionality and standards&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;chapter-synopsis&quot;&gt;Chapter synopsis&lt;/h2&gt;
+
+&lt;p&gt;Chapter 3 will go through the WS-* standards, technologies and APIs that are commonly used to implement a service-oriented application. Bottom-up and top-down service implementations approaches are explored. This chapter introduces also two service integration and composition techniques, namely service orchestration and choreography for composing individual services so as to achieve useful business processes. By the end of this chapter, students will come to know about service implementation,testing, discovery, publication and invocation platforms. Basic concepts of orchestration and choreography, with orchestration and choreography readily available orchestration platforms and workflow engines like BPEL are also explained.&lt;/p&gt;
+
+&lt;h2 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h2&gt;
+
+&lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Objective : prepare web services(SOAP) implementation platforms&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/XML%20Visual%20QuickStart%20Guide%202nd%20Edition.pdf&quot;&gt;XML Visual quick start guide, 2nd edition&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Part 17.&lt;/strong&gt; Ajax, RSS, SOAP, and More&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20services%20%20principles%20and%20technology.pdf&quot;&gt;Web services : principles and technology&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 4.&lt;/strong&gt; SOAP&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Building%20Web%20Services%20with%20Java%20Making%20Sense%20of%20XML,%20SOAP,%20WSDL.pdf&quot;&gt;Building Web Services with Java: Making Sense of XML, SOAP, WSDL, and UDDI 2nd Edition&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap .&lt;/strong&gt; SOAP&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;📝 &lt;strong&gt;ToDo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To go through the lifecycle of a web service, we will need several tools that you should install on your machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;** Web service implementation **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to implement web services either in Bottom-up or top-down web services, you will need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://ampps.com/downloads&quot;&gt;AMPPS&lt;/a&gt; is a MAMP, WAMP and LAMP software stack from Softaculous enabling Apache, Mysql, MongoDB, PHP, Perl, and Python. This includes everything you need for website development. Start developing your website from open source web applications or just start writing code yourself.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PhP comes with a top-down enabling web services implementation API. But for implementing web services along the bottom-up approach, we will be using &lt;a href=&quot;https://sourceforge.net/projects/nusoap/&quot;&gt;NUSOAP&lt;/a&gt; : NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a set of PHP classes - no PHP extensions required - that allow developers to create and consume web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1. Please download NUSOAP, unzip it and add it to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www&lt;/code&gt; folder in your installed AMPPS platform.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;** Web service testing **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to test web services we will be using :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.soapui.org/downloads/soapui/&quot;&gt;SOAPUI the open source version&lt;/a&gt;:  an API (SOAP/REST) testing tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;after-lecture-&quot;&gt;After lecture :&lt;/h2&gt;
+
+&lt;p&gt;💻 &lt;strong&gt;ToCode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Will be published later when we will finish the chapter.&lt;/p&gt;
+
+&lt;h2 id=&quot;preferred-text-editor&quot;&gt;Preferred text editor:&lt;/h2&gt;
+
+&lt;p&gt;It is highly recommended to use :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗&lt;a href=&quot;https://code.visualstudio.com/docs/setup/setup-overview&quot;&gt;Visual studio code&lt;/a&gt;  with &lt;a href=&quot;https://developers.redhat.com/blog/2018/12/04/xml-language-server-vscode-extension/&quot;&gt;RedHat extension&lt;/a&gt;. This extension will help you with XML validation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional resources:&lt;/h2&gt;
+
+&lt;p&gt;Several web services web sites :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.programmableweb.com/&quot;&gt;API directory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.free-web-services.com/&quot;&gt;A directory of free web services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://explore.postman.com/templates&quot;&gt;Collection of public APIs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;http://www.xignite.com/&quot;&gt;Financial web services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;http://www.cdyne.com&quot;&gt;SMS, voice, phone and address verification APIs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://developer.ebay.com/devzone/shopping/docs/Concepts/ShoppingAPIGuide.html&quot;&gt;Ebay shopping API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;http://sofa.uqam.ca/soda/webservices.php&quot;&gt;List of weather related and financial web services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 3 are listed here.</summary></entry><entry><title type="html">Chapter 2 added !</title><link href="http://localhost:4000/course/update/2020/09/23/Welcome-copy.html" rel="alternate" type="text/html" title="Chapter 2 added !" /><published>2020-09-23T20:40:12+01:00</published><updated>2020-09-23T20:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/09/23/Welcome%20copy</id><content type="html" xml:base="http://localhost:4000/course/update/2020/09/23/Welcome-copy.html">&lt;p&gt;The Web materials and resources of Chapter 2 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-2-service-oriented-architecture-soa&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_2&quot;&gt;Chapter 2, Service-Oriented Architecture (SOA)&lt;/a&gt;&lt;/h1&gt;
 
