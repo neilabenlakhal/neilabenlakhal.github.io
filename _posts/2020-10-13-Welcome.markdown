@@ -88,3 +88,42 @@ Several web services web sites :
 - 🔗 [SMS, voice, phone and address verification APIs](http://www.cdyne.com)
 - 🔗 [Ebay shopping API](https://developer.ebay.com/devzone/shopping/docs/Concepts/ShoppingAPIGuide.html)
 - 🔗 [List of weather related and financial web services](http://sofa.uqam.ca/soda/webservices.php)
+
+
+## Chapter Videos :
+
+[Youtube video lecture Section 1: Chapter 2 review](https://youtu.be/6cwVPO2pYkc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6cwVPO2pYkc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 2: service properties (part 1)](https://youtu.be/4UEHxG1HHvo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4UEHxG1HHvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Section 2: service properties (part 2)](https://youtu.be/0KyjCYbVdD4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0KyjCYbVdD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Section 3: Web service Demo (part 1)](https://youtu.be/l2bBYjHcAtM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l2bBYjHcAtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Section 3: Web service Demo (part 2)](https://youtu.be/GteQ3IEmtWE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GteQ3IEmtWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 4: XML review- Namespaces - SOAP protocol](https://youtu.be/JUpKPmB2Wew)
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JUpKPmB2Wew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Section 5: Web service NUSOAP client (part 1)](https://youtu.be/WWZ6qfjE6Sk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWZ6qfjE6Sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  
+[Youtube video lecture Section 6: Web service NUSOAP client (part 2)](https://youtu.be/jQUvkrsYZd8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jQUvkrsYZd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
