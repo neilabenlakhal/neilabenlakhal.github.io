@@ -1,0 +1,159 @@
+---
+layout: post
+title:  "Chapter 3 - Section 2 added !"
+date:   2020-10-29 10:40:12 +0300
+categories: Course update
+---
+
+The Web materials and resources of Chapter 3 - Section 2 are listed here.
+
+# Chapter 3, Web Services-Core functionality and standards
+
+# [Section 2, Implementing Web services](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_3section2)
+
+### Section synopsis
+
+In this section, we will explore Web services implementation approaches and various available APIs. By the end of this section, students will come to know about service implementation,testing, publication and invocation platforms.
+
+### Before lecture
+
+📚 **ToRead**
+
+Objective :  Implementing Web service - Learning [WSDL](https://www.w3.org/TR/wsdl20/) standard.
+
+1. From [Web Service Implementation and Composition Techniques 1st ed. 2017 Edition, springer](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/ToRead/Web%20Service%20Implementation%20and%20Composition%20Techniques.pdf)
+    * **Chap 2.** Web Services – SOAP and WSDL
+
+2. From [Web services : principles and technology](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Web%20services%20%20principles%20and%20technology.pdf)
+   * **Chap 5.** Describing Web services
+
+3. From [Building Web Services with Java: Making Sense of XML, SOAP, WSDL, and UDDI 2nd Edition](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_2/ToRead/Building%20Web%20Services%20with%20Java%20Making%20Sense%20of%20XML,%20SOAP,%20WSDL.pdf)
+    * **Chap 4.** Describing Web Services
+    * **Chap 5.** Implementing Web Services with Apache Axis
+
+📝 **ToDo**
+
+The objective of this section, is to get familiarized with several Web service implementation platforms in various programming languages. 
+
+
+#### Running lecture demos:
+
+In order to implement Web services either in Bottom-Up or Top-Down Web services, you will need, a service container and a SOAP engine. Web services examples of this course are deployed in Apache, and are written in Php.<br>
+
+To run demo Web services  provided with this lecture, you need first to clone the following repository on your machine: [https://github.com/neilabenlakhal/webservices2.git](https://github.com/neilabenlakhal/webservices2.git).  
+
+ Then, you need the following tools installed :  
+
+* [AMPPS](https://ampps.com/downloads) is a MAMP, WAMP and LAMP software stack from Softaculous enabling Apache, Mysql, MongoDB, PHP, Perl, and Python. This includes everything you need for website development. Start developing your website from open source web applications or just start writing code yourself.
+  
+* [NUSOAP](https://sourceforge.net/projects/nusoap/) and SOAP.dll: PhP comes with a Top-Down enabling Web services implementation API (Soap.dll). But for implementing Web services along the Bottom-Up approach, we will be using [NUSOAP](https://sourceforge.net/projects/nusoap/), a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a set of PHP classes - no PHP extensions required - that allow developers to create and consume Web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1. Please download NUSOAP, unzip it and add it to your `www` folder in your installed AMPPS platform.
+
+#### Testing others Web services implementation platforms  :  
+
+Every programming language has one or several APIs  to implement Web services that support SOAP based communication. for this `ToDo3_2` section, you are highly advised to do the following Lab exercises, to get familiarized with implementing Web services in Java and .NET.
+
+* __Implementing web services in JAVA__: Java API for XML Web Services (JAX-WS) is a technology for building web services and clients that communicate using XML. There are currently many platforms that implement it, Apache CXF and Apache Axis 2 are two implementations of JAX-WS.
+
+   -[Apache Axis2](http://axis.apache.org/axis2/java/core/) project:  is a Java-based implementation of both the client and server sides of the Web services equation. Apache Axis2 provides a complete object model and a modular architecture that makes it easy to add functionality and support for new Web services-related specifications and recommendations. Axis2 enables you to easily perform the following tasks:
+    - Send SOAP messages.
+    - Receive and process SOAP messages.
+    - Create a Web service out of a plain Java class.
+    - Create implementation classes for both the server and client using WSDL.
+    - Easily retrieve the WSDL for a service. <br><br>
+  
+   -[Apache CXF](https://cxf.apache.org/): is an open source services framework. CXF helps you build and develop services using frontend programming APIs, like JAX-WS (SOAP) and JAX-RS (REST). These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
+
+
+* __Implementing web services with Windows Communication Foundation (WCF):__ WCF is a framework for building service-oriented (SOAP/REST) applications. Using WCF, you can send data as asynchronous messages from one service endpoint to another. A service endpoint can be part of a continuously available service hosted by IIS, or it can be a service hosted in an application. An endpoint can be a client of a service that requests data from a service endpoint. The messages can be as simple as a single character or word sent as XML, or as complex as a stream of binary data. 
+
+* __Practical Exercises :__
+
+  - Lab Exercise 00 : Creating a WSDL File. Many tools can be used to create a WSDL file. We can generate it using NUSOAP, or WSDL2JAVA, or we can use tools like Eclipse. This is a tutorial about [creating WSDL in Eclipse.](https://help.eclipse.org/2020-09/index.jsp?topic=%2Forg.eclipse.wst.wsdl.ui.doc.user%2Ftasks%2Ftcrtwsdl.html). You can also use this [tutorial](https://crunchify.com/create-sample-wsdl-in-eclipse-and-generate-client/) as additional explanation.
+  
+  - Lab Exercise 01 : Developing Simple Web Services with Apache CXF and Maven from Chap 2 of  [Web Service Implementation and Composition Techniques 1st ed. 2017 Edition, springer](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/ToRead/Web%20Service%20Implementation%20and%20Composition%20Techniques.pdf)
+
+  - Lab Exercise 02: [Apache Axis2 JAX-WS based Web Service using Bottom-Up approach](https://www.benchresources.net/apache-axis2-jax-ws-based-web-service-using-bottom-up-approach)
+
+  - Lab Exercise 03: [Web Services Using C# - Creating Web Services](https://www.c-sharpcorner.com/article/web-services-using-c-sharp-creating-web-services/)
+
+  - Lab Exercise 04: [Write a web service by using Visual C# .NET](https://docs.microsoft.com/en-us/troubleshoot/dotnet/csharp/write-web-service)
+
+
+* __Web service testing :__
+
+In order to test web services we will be using :
+
+* [SOAPUI the open source version](https://www.soapui.org/downloads/soapui/),  an API (SOAP/REST) testing tool.
+  
+### After lecture : 
+
+💻 **ToCode** 
+
+The objective of this `ToCode3_2` section is to create a Web services composition `(WSC)` composed of two(2) Web services : `WS1` and `WS2`. <br>
+
+  - `WS1`: is a Web service you have to implement yourself.
+  - `WS2`: is a Web service you have to choose from internet, then, write a client against `WS2`.
+  - `WS1` and `WS2` are to be invoked sequentially by a Web interface transparently.
+
+Sample scenarios you can consider :
+
+  - `WS1`  makes a fictive travel reservation for a customer. The total amount will be returned in TND. `WS2` will provide a reservation confirmation with the total amount in  another currency, for instance USD.  
+
+  - `WS1` lets a user choose a preferred vacation destination, and `WS2`, will provide the user with the weather forecast, for the designated destination and date.
+
+> Step 1
+
+Implement a SOAP web service (bottom-up approach)-- we will call it `WS1`.<br>
+   -  Write a  PHP web service using NUSOAP library. Your web service should have at least (2)two methods. one of them having a table as input/output. Your generated WSDL file should define at least one complex data type.
+   - Write a client in PHP to your Web service (one of the (2)two methods).  
+
+Implement a SOAP web service (Top-down approach) -- we will call it `WS-TD`.
+    - Write another PhP web services. Your web service should have one method.  
+    - Write a client in PHP to your Web service.
+
+> Step 2
+
+Search for your `WS2` : it should supports SOAP-based invocation. Test the web service and write a client.
+
+> Step 3  
+
+Write a client for `WS1` and `WS2`. 
+Hint: The output of `WS1` must be an input to `WS2`.
+
+> Step 4
+
+Call `WS1` and `WS2` composition using a Web interface.
+
+> What to submit ?
+
+-Create a folder and name it `ToCode3_2`. Create four(4) subfolders named : `WS1`, `WS2`, `WS-TD`, and `WSC`. 
+- Store the source code, of the WS and the client of each WS. Add  SOAPUI tests of you `WS1`, `WS2`, and `WS-TD` (print screens). 
+- Store the source code of the composition in `WSC` with print screen of its execution interface with results. You may add an explanatory description of your composition with each web service methods, input and output parameters.
+
+- Push your  `ToCode3_2` to your `GIT` repository.  
+- Send the following on Microsoft Teams : Link of your git repository.  
+
+## Additional resources: 
+
+Several web services WSDL files : 
+- 🔗 [Google Ads](https://developers.google.com/adwords/api/docs/guides/call-structure) - 
+   [https://adwords.google.com/api/adwords/cm/v201809/CampaignService?wsdl](https://adwords.google.com/api/adwords/cm/v201809/CampaignService?wsdl)
+- 🔗 [EbaY](http://developer.ebay.com) - 
+   [http://developer.ebay.com/webservices/latest/ebaySvc.wsdl](http://developer.ebay.com/webservices/latest/ebaySvc.wsdl)
+- 🔗 PayPAL - [https://www.paypalobjects.com/wsdl/paypalsvc.wsdl](https://www.paypalobjects.com/wsdl/paypalsvc.wsdl)
+- 🔗 [National Digital Forecast Database (NDFD)](http://www.nws.noaa.gov/xml/) - 
+[http://www.weather.gov/forecasts/xml/DWMLgen/wsdl/ndfdXML.wsdl](http://www.weather.gov/forecasts/xml/DWMLgen/wsdl/ndfdXML.wsdl)
+- 🔗 UPS Developer Kit APIs - [https://www.ups.com/cd/en/help-center/technology-support/developer-resource-center/ups-developer-kit/about.page?](https://www.ups.com/cd/en/help-center/technology-support/developer-resource-center/ups-developer-kit/about.page?)
+- 🔗 [Flightaware](https://flightaware.com/commercial/flightxml/v3/documentation.rvt) - 
+[http://flightxml.flightaware.com/soap/FlightXML3/wsdl](http://flightxml.flightaware.com/soap/FlightXML3/wsdl)
+
+
+Several Web services web sites :
+
+- 🔗 [API directory](https://www.programmableweb.com/)
+- 🔗 [A directory of free web services](https://www.free-web-services.com/)
+- 🔗 [Collection of public APIs](https://explore.postman.com/templates)
+- 🔗 [Financial web services](http://www.xignite.com/)
+- 🔗 [SMS, voice, phone and address verification APIs](http://www.cdyne.com)
+- 🔗 [Ebay shopping API](https://developer.ebay.com/devzone/shopping/docs/Concepts/ShoppingAPIGuide.html)
+- 🔗 [List of weather related and financial web services](http://sofa.uqam.ca/soda/webservices.php)

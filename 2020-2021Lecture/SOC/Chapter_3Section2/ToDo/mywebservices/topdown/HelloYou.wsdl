@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- part 1 : Definitions -->
+<definitions      name="HelloYou" 
+              targetNamespace="urn:HelloYou" 
+              xmlns:typens="urn:HelloYou" 
+              xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+              xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+              xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+              xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+              xmlns="http://schemas.xmlsoap.org/wsdl/">
+         <!-- part 2 : Types-->
+<types>
+        <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:HelloYou">
+        </xsd:schema>
+ </types> 
+        <!-- part 3 : Message -->
+        <message name="getHelloRequest">
+                <part name="prenom" type="xsd:string"/>
+                <part name="nom" type="xsd:string"/>
+        </message>
+        <message name="getHelloResponse">
+                <part name="return" type="xsd:string"/>
+        </message>
+         <!-- part 4 : Port Type -->
+        <portType name="HelloYouPort">
+         <!-- part 5 : Operation -->
+                <operation name="getHello">
+                        <input message="typens:getHelloRequest"/>
+                        <output message="typens:getHelloResponse"/>
+                </operation>
+        </portType>
+        <!-- part 6 : Binding -->
+        <binding name="HelloYouBinding" type="typens:HelloYouPort">
+                <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+                <operation name="getHello">
+                        <soap:operation soapAction="HelloYouAction"/>
+                        <input name="getHelloRequest">
+                                <soap:body        use="encoded"       
+                                              namespace="urn:HelloYou"    
+                                              encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+                        </input>
+                        <output name="getHelloResponse">
+                                <soap:body        use="encoded"       
+                                              namespace="urn:HelloYou" 
+                                              encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+                        </output>
+                </operation>
+        </binding>
+         <!-- part 7 : Service -->
+        <service name="HelloYouService">
+                <documentation>Retourne une phrase simple </documentation>
+                <!-- part 8 : Port -->
+                <port name="HelloYouPort" binding="typens:HelloYouBinding"><!-- modify this -->
+                        <soap:address location="http://localhost/mywebservices/topdown/HelloYouService.php"/>
+                </port>
+        </service>
+</definitions>

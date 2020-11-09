@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chapter 3 added !"
+title:  "Chapter 3 -Section 1 added !"
 date:   2020-10-13 10:40:12 +0300
 categories: Course update
 ---
@@ -8,6 +8,8 @@ categories: Course update
 The Web materials and resources of Chapter 3 are listed here.
 
 # [Chapter 3, Web Services-Core functionality and standards](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_3)
+
+# Section 1 Web services-core standards 
 
 ## Chapter synopsis
 

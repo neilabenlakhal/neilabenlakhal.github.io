@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- part 1 : Definitions -->
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" 
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" 
+             xmlns:tns="http://www.mynamespace.com" 
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+             xmlns="http://schemas.xmlsoap.org/wsdl/" 
+             targetNamespace="http://www.mynamespace.com">
+  <!-- part 2 : Types-->
+  <types>
+    <xsd:schema targetNamespace="http://www.mynamespace.com">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </types>
+  <!-- part 3 : Message -->
+  <message name="SayHelloRequest">
+    <part name="name" type="xsd:string" />
+  </message>
+  <message name="SayHelloResponse">
+    <part name="hi" type="xsd:string" />
+  </message>
+  <!-- part 4 : PortType -->
+  <portType name="mynamePortType">
+    <operation name="SayHello">
+      <input message="tns:SayHelloRequest" />
+      <output message="tns:SayHelloResponse" />
+    </operation>
+  </portType>
+  <!-- part 5 : Binding -->
+  <binding name="mynameBinding" type="tns:mynamePortType">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="SayHello">
+      <soap:operation soapAction="http://www.mynamespace.com#SayHello" style="rpc" />
+      <input>
+        <soap:body use="encoded" 
+                   namespace="http://www.mynamespace.com" 
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" 
+                   namespace="http://www.mynamespace.com" 
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <!-- part 6 : Service -->
+  <service name="myname">
+    <!-- part 7 : Port -->
+    <port name="mynamePort" binding="tns:mynameBinding">
+      <soap:address location="http://localhost/mywebservices/webservice.php" />
+    </port>
+  </service>
+</definitions>
