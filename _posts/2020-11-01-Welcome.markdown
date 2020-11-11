@@ -165,3 +165,22 @@ Several Web services web sites :
 - 🔗 [SMS, voice, phone and address verification APIs](http://www.cdyne.com)
 - 🔗 [Ebay shopping API](https://developer.ebay.com/devzone/shopping/docs/Concepts/ShoppingAPIGuide.html)
 - 🔗 [List of weather related and financial web services](http://sofa.uqam.ca/soda/webservices.php)
+
+
+## Chapter Videos :
+
+[Youtube video lecture Chapter 3 - Section 2 : Part 1](https://youtu.be/6cwVPO2pYkc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/osNCyERKmtc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Chapter 3 - Section 2 : Part 2](https://youtu.be/4UEHxG1HHvo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hhUbnaUwgu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Chapter 3 - Section 2 : Part 3](https://youtu.be/0KyjCYbVdD4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LlIMhrr5nyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Chapter 3 - Section 2 : Part 4](https://youtu.be/l2bBYjHcAtM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xuKV7cVw0e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
