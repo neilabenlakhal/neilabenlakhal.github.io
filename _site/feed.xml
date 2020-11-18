@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-18T14:42:16+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 3 - Section 2 added !</title><link href="http://localhost:4000/course/update/2020/10/29/Welcome.html" rel="alternate" type="text/html" title="Chapter 3 - Section 2 added !" /><published>2020-10-29T08:40:12+01:00</published><updated>2020-10-29T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/10/29/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/10/29/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 3 - Section 2 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-18T16:25:24+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 4 added !</title><link href="http://localhost:4000/course/update/2020/11/18/Welcome.html" rel="alternate" type="text/html" title="Chapter 4 added !" /><published>2020-11-18T08:40:12+01:00</published><updated>2020-11-18T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/11/18/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/11/18/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 4 are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-4-restful-architecture&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_4&quot;&gt;Chapter 4, RESTFUL architecture&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 4 REST Architecture&lt;/code&gt; introduces the concepts related to the programmable Web, shows how HTTP and Web services are related to each other, introduces the principles behind REST Architectural Style, explains how HTTP verbs are used in REST applications and explains the need for RESTFul web services. By the end of this chapter, students will learn the core architectural elements that form a RESTful system and will get introduced to some frameworks and tools that can be used to implement and test RESTful Web services.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h3&gt;
+
+&lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Objectives :  Understanding HTTP protocol - Understanding REST Architecture principles - learning how to implement RESTful Web services.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/ToRead/Web%20Service%20Implementation%20and%20Composition%20Techniques.pdf&quot;&gt;Web Service Implementation and Composition Techniques 1st ed. 2017 Edition, springer&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 3.&lt;/strong&gt; Web Services – REST or Restful Services&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/ToRead/PHPWebServices2ndEdition.pdf&quot;&gt;Master Php 7, 2017&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 11.&lt;/strong&gt; Building Services (Working with REST section)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_4/ToRead/RESTful%20Java%20Web%20Services%20-%20Third%20Edition_%20-%20Bogunuva%20Mohanram%20Balachandar.pdf&quot;&gt;RESTful Java Web Services, 2017, 3rd ed.&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 5.&lt;/strong&gt; Introducing the REST Architectural Style&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_4/ToRead/Building%20RESTful%20Web%20Services%20with%20PHP%207.pdf&quot;&gt;Building RESTful Web Services with PHP 7 ed. 2017&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1.&lt;/strong&gt; RESTful Web Services, Introduction and Motivation.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/ToRead/PHPWebServices2ndEdition.pdf&quot;&gt;PhP web services, second edition, 2016&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1.&lt;/strong&gt; HTTP&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 2.&lt;/strong&gt; HTTP Verbs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 3.&lt;/strong&gt; Headers&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 5.&lt;/strong&gt; JSON&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 6.&lt;/strong&gt; XML&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 8.&lt;/strong&gt; REST&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 9.&lt;/strong&gt; HTTP Tools&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm&quot;&gt;Architectural Styles and the Design of Network-based  Software Architectures, by Roy Fielding PhD Thesis, University of California, Irvine, 2000&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;📝 &lt;strong&gt;ToDo&lt;/strong&gt;
+The objective of this section, is to explore frameworks and tools required to build RESTFUL Web services. Design guidelines that developers will find useful while building RESTful web services are also given.&lt;/p&gt;
+&lt;h4 id=&quot;running-lecture-demos&quot;&gt;Running lecture demos:&lt;/h4&gt;
+
+&lt;p&gt;In order to implement RESTful Web services, you will need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;service container&lt;/code&gt; : to deploy and publish the service. We will use apache with AMPPS.&lt;/li&gt;
+  &lt;li&gt;An &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTTP library&lt;/code&gt;  : to handle service HTTP-based invocations. We will use Curl and PHP’s built-in stream-handling functionality.&lt;/li&gt;
+  &lt;li&gt;A &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON formatting tool&lt;/code&gt; : to encode and decode service data to be sent/received in the body of an HTTP request/response. We will use PHP classes.&lt;/li&gt;
+  &lt;li&gt;An &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML library&lt;/code&gt; : To parse XML, serialize and deserialize service data to be sent/received in the body of an HTTP request/response. We will use DOM and simpleXML.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APIs frameworks&lt;/code&gt; to implement and handle restful services requests and responses. We will use PHP extensions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Web services examples of this course are deployed in Apache, and are written in Php.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To run demo Web services provided with this lecture, you need first to clone the following repository on your machine: &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/SOC/Chapter_4/ToDo/rest/&quot;&gt;TODO/REST&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, you need the following tools installed :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://ampps.com/downloads&quot;&gt;AMPPS&lt;/a&gt; is a MAMP, WAMP and LAMP software stack from Softaculous enabling Apache, Mysql, MongoDB, PHP, Perl, and Python. This includes everything you need for website development. Start developing your website from open source web applications or just start writing code yourself.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.php.net/manual/en/book.curl.php&quot;&gt;PHP’s cURL extension&lt;/a&gt; : PhP has its own wrappers for cURL. &lt;a href=&quot;https://curl.se/&quot;&gt;cURL&lt;/a&gt; allows to make any web request imaginable in any form, repeat those requests, and observe in detail exactly what information is exchanged between client and server. It is a brilliant, quick tool for inspecting what’s going on with a Web request, particularly when dealing with something that isn’t in a browser or where you need to be more specific about how the request is made. PhP’s cURL extension  has excellent and comprehensive documentation on &lt;a href=&quot;http://php.net&quot;&gt;http://php.net&lt;/a&gt;. We can use this extension to make all kinds of HTTP requests, including sending custom headers, sending body data, and using different verbs to make our request. The PHP cURL extension isn’t the easiest interface to use, although it does have the advantage of being reliably available.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;(http://php.net)&quot;&gt;PHP’s built-in stream-handling functionality&lt;/a&gt; :  Another great way of making HTTP requests that is always available in PHP is to use PHP’s stream-handling abilities with the file functions. In its simplest form, this means that, if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;allow_url_fopen&lt;/code&gt; is enabled (see the PHP manual), it is possible to make requests using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_get_contents()&lt;/code&gt;. The simplest example is making a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; request and reading the response body in as if it were a local file. Using the PHP &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_get_contents()&lt;/code&gt; function, we can read files or API data but can not perform write, update, delete operations. Use cURL methods to perform all those operations using API data.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;These chrome extensions with added-value :
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en&quot;&gt;JSON formatter&lt;/a&gt; : beautifies JSON data with advanced formatting and validation algorithms.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/network-sniffer/coblekblkacfilmgdghecpekhadldjfj?hl=en&quot;&gt;Network Sniffer&lt;/a&gt; : network traffic analyser to capture HTTP requests/responses.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.postman.com/&quot;&gt;POSTMAN&lt;/a&gt; : is an API client that makes it easy for developers to create, share, test and document APIs. This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses. It is a great tool when trying to dissect RESTful APIs made by others or test ones you have made yourself. It offers a user interface with which to make HTML requests to test an API’s functionality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[&lt;a href=&quot;https://www.postman.com/&quot;&gt;POSTMAN Console&lt;/a&gt;] : To see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman Console allows to see and capture this network traffic easily.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.soapui.org/downloads/soapui/&quot;&gt;SOAPUI the open source version&lt;/a&gt;:  an API (SOAP/REST) testing tool. SOAPUI allows to generate Restful service code from service URI and service &lt;a href=&quot;https://www.w3.org/Submission/wadl/&quot;&gt;WADL(web application description language)&lt;/a&gt; resources documentation. For further explanation, see &lt;a href=&quot;https://www.soapui.org/docs/rest-testing/&quot;&gt;https://www.soapui.org/docs/rest-testing/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;testing-others-web-services-implementation-platforms-&quot;&gt;Testing others Web services implementation platforms :&lt;/h4&gt;
+
+&lt;p&gt;Every programming language has one or several APIs  to implement RESTFUL Web services that support HTTP/REST based communication. for this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToDo4&lt;/code&gt; section, you are highly advised to do the following Lab exercises, to get familiarized with implementing Web services in PHP, JAVA and .NET.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Implementing RESTFUL web services in JAVA&lt;/strong&gt;: Java community defines standard REST support via JAX-RS (the Java API for RESTful Web Services) in JSR 311. There are a few implementations of this standard available now (e.g., Apache CXF, RESTEasy by JBoss, Jersey by Sun). JAX-RS is a technology for building web services and clients that communicate using JSON/XML.&lt;/p&gt;
+
+    &lt;p&gt;-&lt;a href=&quot;https://cxf.apache.org/&quot;&gt;Apache CXF&lt;/a&gt;: is an open source services framework. CXF helps you build and develop services using frontend programming APIs, like JAX-WS (SOAP) and JAX-RS (REST). These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Practical Exercises :&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Lab Exercise 01: &lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&amp;amp;tabs=visual-studio&quot;&gt;Create a web API with ASP.NET Core&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Lab Exercise 02: &lt;a href=&quot;https://crunchify.com/how-to-build-restful-service-with-java-using-jax-rs-and-jersey/&quot;&gt;Build RESTful Service in Java using JAX-RS and Jersey (Celsius to Fahrenheit &amp;amp; Fahrenheit to Celsius)&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Lab Exercise 03: A Simple REST Service with Apache CXF (JAX-RS) from &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/ToRead/Web%20Service%20Implementation%20and%20Composition%20Techniques.pdf&quot;&gt;Web Service Implementation and Composition Techniques 1st ed. 2017 Edition, springer&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web service testing :&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to test web services we will be using :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.soapui.org/downloads/soapui/&quot;&gt;SOAPUI the open source version&lt;/a&gt;,  an API (SOAP/REST) testing tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;after-lecture-&quot;&gt;After lecture :&lt;/h3&gt;
+
+&lt;p&gt;💻 &lt;strong&gt;ToCode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The objective of this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode4&lt;/code&gt; section is to manipulate two (2) RESTFUL Web services : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt; : &lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS1&lt;/code&gt;: is a RESTFUL Web service you have to implement yourself.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt;: is a RESTFUL Web service you have to choose from internet; you can for instance try &lt;a href=&quot;https://explore.postman.com/4DTEzqFagDUe7F&quot;&gt;Covid19 APIS&lt;/a&gt;, test it, then, write 2(two) clients against &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt; : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Client1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Client2&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Step 1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Implement a RESTFUL web service – we will call it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS1&lt;/code&gt;.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write a  PHP web service using CURL library. Your web service should implement at least (2)two HTTP methods. Test your web service with POSTMAN or SOAPUI and generate a WADL file for it.&lt;/li&gt;
+  &lt;li&gt;Write a client in PHP to your Web service (one of the (2)two HTTP methods).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Step 2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Search for your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt; : it should supports REST-based invocation.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TEST the web service with SOAPUI (choose a method with XML response) and generate WADL file.&lt;/li&gt;
+  &lt;li&gt;TEST the web service with postman ((choose a method with JSON response) and capture HTTP traffic.&lt;/li&gt;
+  &lt;li&gt;Write &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Client1&lt;/code&gt; for a method with XML response : the one tested with SOAPUI. Use SimpleXML to parse XML.&lt;/li&gt;
+  &lt;li&gt;Write &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Client2&lt;/code&gt; for a method with JSON response : the one tested with POSTMAN.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Step 3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt; using a Web interface.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Step 4 (Bonus Step)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Implement a RESTFUL web service  in Java or .NET and write a client for this web service in PHP.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What to submit ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;-Create a folder and name it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode4&lt;/code&gt;. Create six(6) subfolders and name them : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;client1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;client2&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;interface&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bonus&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Store the source code, of the WS and the client of each WS. Add  tests and HTTP traffic capture of your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RWS2&lt;/code&gt; (print screens).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Store the source code of the interface in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;interface&lt;/code&gt; with print screens of its execution interface with results. You may add an explanatory description of each web service method.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Push your  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ToCode4&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GIT&lt;/code&gt; repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Send the following on Microsoft Teams : Link of your git repository, print screens of the various POSTMAN/SOAPUI tests.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-resources-&quot;&gt;Additional resources :&lt;/h2&gt;
+
+&lt;p&gt;Several RESTFUL Web services web sites :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.programmableweb.com/&quot;&gt;API directory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://explore.postman.com/templates&quot;&gt;Collection of public APIs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://github.com/public-apis/public-apis&quot;&gt;Collection of public APIs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.flickr.com/services/api/&quot;&gt;Flickr API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;http://sofa.uqam.ca/soda/webservices.php&quot;&gt;List of weather related and financial web services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://rapidapi.com/blog/most-popular-api/&quot;&gt;Top 50 Most Popular APIs on RapidAPI (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 4 are listed here.</summary></entry><entry><title type="html">Chapter 3 - Section 2 added !</title><link href="http://localhost:4000/course/update/2020/10/29/Welcome.html" rel="alternate" type="text/html" title="Chapter 3 - Section 2 added !" /><published>2020-10-29T08:40:12+01:00</published><updated>2020-10-29T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/10/29/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/10/29/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 3 - Section 2 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-3-web-services-core-functionality-and-standards&quot;&gt;Chapter 3, Web Services-Core functionality and standards&lt;/h1&gt;
 

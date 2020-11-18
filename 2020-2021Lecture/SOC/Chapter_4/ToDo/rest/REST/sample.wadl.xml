@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+    <doc xmlns:jersey="http://jersey.java.net/" jersey:generatedBy="Jersey: 2.21 2015-08-14 21:41:51" />
+    <doc xmlns:jersey="http://jersey.java.net/" jersey:hint="This is simplified WADL with user and core resources only. To get full WADL with extended resources use the query parameter detail. Link: http://localhost:15647/rest-chapter7-jaxrs2wadl/webresources/application.wadl?detail=true" />
+    <grammars>
+        <include href="application.wadl/xsd0.xsd">
+            <doc title="Generated" xml:lang="en" />
+        </include>
+    </grammars>
+    <resources base="http://localhost:15647/rest-chapter7-jaxrs2wadl/webresources/">
+        <resource path="departments">
+            <method id="createDepartment" name="POST">
+                <request>
+                    <ns2:representation xmlns:ns2="http://wadl.dev.java.net/2009/02" xmlns="" element="department" mediaType="application/json" />
+                </request>
+            </method>
+            <method id="findAllDepartments" name="GET">
+                <request>
+                    <param xmlns:xs="http://www.w3.org/2001/XMLSchema" name="from" style="query" type="xs:int" default="1" />
+                    <param xmlns:xs="http://www.w3.org/2001/XMLSchema" name="to" style="query" type="xs:int" default="100" />
+                </request>
+                <response>
+                    <ns2:representation xmlns:ns2="http://wadl.dev.java.net/2009/02" xmlns="" element="department" mediaType="application/json" />
+                </response>
+            </method>
+            <resource path="{id}">
+                <param xmlns:xs="http://www.w3.org/2001/XMLSchema" name="id" style="template" type="xs:short" />
+                <method id="findDepartment" name="GET">
+                    <response>
+                        <ns2:representation xmlns:ns2="http://wadl.dev.java.net/2009/02" xmlns="" element="department" mediaType="application/json" />
+                    </response>
+                </method>
+                <method id="editDepartment" name="PUT">
+                    <request>
+                        <ns2:representation xmlns:ns2="http://wadl.dev.java.net/2009/02" xmlns="" element="department" mediaType="application/json" />
+                    </request>
+                </method>
+            </resource>
+        </resource>
+    </resources>
+</application>
