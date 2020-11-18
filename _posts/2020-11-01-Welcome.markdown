@@ -9,7 +9,7 @@ The Web materials and resources of Chapter 3 - Section 2 are listed here.
 
 # Chapter 3, Web Services-Core functionality and standards
 
-# [Section 2, Implementing Web services](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_3section2)
+# [Section 2, Implementing Web services](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter_3Section2/)
 
 
 ### Section synopsis
