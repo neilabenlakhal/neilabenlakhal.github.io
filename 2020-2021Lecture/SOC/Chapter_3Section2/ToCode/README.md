@@ -1,5 +1,5 @@
 
-##ToCode3_2
+💻 **ToCode** 
 
 The objective of this `ToCode3_2` section is to create a Web services composition `(WSC)` composed of two(2) Web services : `WS1` and `WS2`. <br>
 
@@ -21,7 +21,9 @@ Implement a SOAP web service (bottom-up approach)-- we will call it `WS1`.<br>
 
 Implement a SOAP web service (Top-down approach) -- we will call it `WS-TD`.
     - Write another PhP web services. Your web service should have one method.  
-    - Write a client in PHP to your Web service.
+    - Write a client in PHP to your Web service.  
+    - Generate your Web service contract using php2WSDL.  
+    - Create another client for your web service in another programming language of your choice.  
 
 > Step 2
 

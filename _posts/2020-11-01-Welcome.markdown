@@ -11,6 +11,7 @@ The Web materials and resources of Chapter 3 - Section 2 are listed here.
 
 # [Section 2, Implementing Web services](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_3section2)
 
+
 ### Section synopsis
 
 In this section, we will explore Web services implementation approaches and various available APIs. By the end of this section, students will come to know about service implementation,testing, publication and invocation platforms.
