@@ -57,7 +57,7 @@ In order to implement RESTful Web services, you will need:
 
  Web services examples of this course are deployed in Apache, and are written in Php.<br>
 
-To run demo Web services provided with this lecture, you need first to clone the following repository on your machine: [TODO/REST]https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_4/ToDo/rest/).
+To run demo Web services provided with this lecture, you need first to clone the following repository on your machine: [TODO/REST](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_4/ToDo/rest/).
 
  Then, you need the following tools installed :  
 
