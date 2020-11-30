@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chapter 4 added !"
-date:   2020-11-18 10:40:12 +0300
+date:   2020-11-05 10:40:12 +0300
 categories: Course update
 ---
 
