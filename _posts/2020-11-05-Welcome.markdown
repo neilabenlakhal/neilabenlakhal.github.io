@@ -153,3 +153,25 @@ Several RESTFUL Web services web sites :
 - 🔗 [Flickr API](https://www.flickr.com/services/api/)
 - 🔗 [List of weather related and financial web services](http://sofa.uqam.ca/soda/webservices.php)
 - 🔗 [Top 50 Most Popular APIs on RapidAPI (2020)](https://rapidapi.com/blog/most-popular-api/)
+
+## Chapter Videos :
+
+[Youtube video lecture Section 1: WHAT IS REST ?](https://www.youtube.com/embed/uYjxzYU3jS0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uYjxzYU3jS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 2: HOW REST IS USING HTTP VERBS](https://youtu.be/GR1jr2AITT4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GR1jr2AITT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 3: REST PRINCIPLES](https://youtu.be/19hlxaS9)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/19hlxaS9-j4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 4: IMPLEMENTING RESTFUL CLIENTS AND SERVICES](https://youtu.be/DbAwOmDiw8M)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DbAwOmDiw8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

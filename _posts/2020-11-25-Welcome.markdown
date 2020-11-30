@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Chapter 5 added !"
+date:   2020-11-18 10:40:12 +0300
+categories: Course update
+---
+
+The Web materials and resources of Chapter 5 are listed here.
+
+# [Chapter 5, Microservices architecture](https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_5) 
+
+ `Chapter 5 Microservice Architecture (MSA) : key architectural elements`. The objective of this chapter is to introduce the essentials of MSA as an architecture that breaks down an application into microservices, each of which can be independently, as well as frequently, deployed and thus facilitate continuous delivery of the application to customers. By the end of the chapter, students will understand the need for MSA, how MSA meets the modern business requirements, and typical use cases, benefits, drawbacks, how MSA differs from SOA. Furthermore, students will learn key architectural elements involved in developing an MSA-based application: the communication models of MSA, microservice discovery and the role of the API gate way in discover. He will understand how services interact with one another synchronously and asynchronously using standard architectures, protocols, and message brokers and how clients discover and access different services using service discovery mechanisms and the API gateway.  
+
+### Before lecture  
+
+📚 **ToRead**
+
+Objectives :  Understanding MSA Architecture principles - learning what platforms are available to implement microservices.
+
+
+1. From [Software Architect's Handbook,Joseph Ingeno, August 2018, Packt Publishing.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/Software%20Architect’s%20Handbook%20Become%20a%20successful%20software%20architect%20by%20implementing%20effective%20architecture%20concepts.pdf.pdf)
+    * **Chap 8.** Architecting modern applications, Section Microservice architecture.
+
+2. From [Essentials of Microservices Architecture Paradigms, Applications, and Techniques August 2019, Taylor & Francis; 1st edition.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/Essentials%20of%20Microservices%20Architecture%20Paradigms,%20Applications,%20and%20Techniques.pdf.pdf)
+    * **Chap 2.**  Demystifying MSA.
+    * **Chap 3.**  Communication Models for Microservices.
+    * **Chap 5.**  Service Discovery and API Gateways.
+
+3. [`[Paper]` - Montesi, Fabrizio and Janine Weber. “Circuit Breakers, Discovery, and API Gateways in Microservices.” CoRR abs/1609.05830 (2016)](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/1PaperCircuit%20Breakers,%20Discovery,%20and%20API%20Gateways%20in%20Microservices.pdf)
+
+4. [`[Paper]` - Dragoni N. et al. (2017) Microservices: Yesterday, Today, and Tomorrow. In: Mazzara M., Meyer B. (eds) Present and Ulterior Software Engineering. Springer, Cham.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/2paperMicroservices%20yesterday%20today%20and%20tomorrow.pdf)
+
+5. [`[Paper]` - Dragoni N. et al. (2017) Microservices: Yesterday, Today, and Tomorrow. In: Mazzara M., Meyer B. (eds) Present and Ulterior Software Engineering. Springer, Cham.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/2paperMicroservices%20yesterday%20today%20and%20tomorrow.pdf)
+
+6. [`[Paper]` - Microservices vs. Service-Oriented Architecture by Mark Richards, 2016 O’Reilly Media.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/3PaperMicroservices_vs_SOA_NGINX.pdf)
+
+7. [`[Paper]` - T. Salah, M. Jamal Zemerly, Chan Yeob Yeun, M. Al-Qutayri and Y. Al-Hammadi, "The evolution of distributed systems towards microservices architecture," 2016 11th International Conference for Internet Technology and Secured Transactions (ICITST), Barcelona, 2016, pp. 318-325.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/4paperTowardsMicroservicesArchitecture.pdf)
+
+8. [Paper - TKalske, M., Mäkitalo, N., & Mikkonen, T. (2017, June). Challenges when moving from monolith to microservice architecture. In International Conference on Web Engineering (pp. 32-47). Springer.](https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/5paperchallenges_moving_monolith.pdf)
+
+
+
+## Additional resources :   
+
+Essential microservices online resources:
+
+- 🔗 [http://martinfowler.com/articles/microservices.html](http://martinfowler.com/articles/microservices.html)
+- 🔗 [https://microservices.io](https://microservices.io)
+- 🔗 [https://www.ibm.com/cloud/learn/microservices](https://www.ibm.com/cloud/learn/microservices)
+- 🔗 [https://www.nginx.com/blog/introduction-to-microservices/](https://www.nginx.com/blog/introduction-to-microservices/)

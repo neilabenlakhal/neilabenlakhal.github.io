@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-18T16:25:24+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 4 added !</title><link href="http://localhost:4000/course/update/2020/11/18/Welcome.html" rel="alternate" type="text/html" title="Chapter 4 added !" /><published>2020-11-18T08:40:12+01:00</published><updated>2020-11-18T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/11/18/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/11/18/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 4 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-29T00:04:53+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 5 added !</title><link href="http://localhost:4000/course/update/2020/11/18/Welcome.html" rel="alternate" type="text/html" title="Chapter 5 added !" /><published>2020-11-18T08:40:12+01:00</published><updated>2020-11-18T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/11/18/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/11/18/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 5 are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-5-microservices-architecture&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_5&quot;&gt;Chapter 5, Microservices architecture&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 5 Microservice Architecture (MSA) : key architectural elements&lt;/code&gt;. The objective of this chapter is to introduce the essentials of MSA as an architecture that breaks down an application into microservices, each of which can be independently, as well as frequently, deployed and thus facilitate continuous delivery of the application to customers. By the end of the chapter, students will understand the need for MSA, how MSA meets the modern business requirements, and typical use cases, benefits, drawbacks, how MSA differs from SOA. Furthermore, students will learn key architectural elements involved in developing an MSA-based application: the communication models of MSA, microservice discovery and the role of the API gate way in discover. He will understand how services interact with one another synchronously and asynchronously using standard architectures, protocols, and message brokers and how clients discover and access different services using service discovery mechanisms and the API gateway.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h3&gt;
+
+&lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Objectives :  Understanding MSA Architecture principles - learning what platforms are available to implement microservices.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/Software%20Architect’s%20Handbook%20Become%20a%20successful%20software%20architect%20by%20implementing%20effective%20architecture%20concepts.pdf.pdf&quot;&gt;Software Architect’s Handbook,Joseph Ingeno, August 2018, Packt Publishing.&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 8.&lt;/strong&gt; Architecting modern applications, Section Microservice architecture.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/Essentials%20of%20Microservices%20Architecture%20Paradigms,%20Applications,%20and%20Techniques.pdf.pdf&quot;&gt;Essentials of Microservices Architecture Paradigms, Applications, and Techniques August 2019, Taylor &amp;amp; Francis; 1st edition.&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 2.&lt;/strong&gt;  Demystifying MSA.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 3.&lt;/strong&gt;  Communication Models for Microservices.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 5.&lt;/strong&gt;  Service Discovery and API Gateways.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/1PaperCircuit%20Breakers,%20Discovery,%20and%20API%20Gateways%20in%20Microservices.pdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Paper]&lt;/code&gt; - Montesi, Fabrizio and Janine Weber. “Circuit Breakers, Discovery, and API Gateways in Microservices.” CoRR abs/1609.05830 (2016)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/2paperMicroservices%20yesterday%20today%20and%20tomorrow.pdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Paper]&lt;/code&gt; - Dragoni N. et al. (2017) Microservices: Yesterday, Today, and Tomorrow. In: Mazzara M., Meyer B. (eds) Present and Ulterior Software Engineering. Springer, Cham.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/2paperMicroservices%20yesterday%20today%20and%20tomorrow.pdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Paper]&lt;/code&gt; - Dragoni N. et al. (2017) Microservices: Yesterday, Today, and Tomorrow. In: Mazzara M., Meyer B. (eds) Present and Ulterior Software Engineering. Springer, Cham.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/3PaperMicroservices_vs_SOA_NGINX.pdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Paper]&lt;/code&gt; - Microservices vs. Service-Oriented Architecture by Mark Richards, 2016 O’Reilly Media.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/4paperTowardsMicroservicesArchitecture.pdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Paper]&lt;/code&gt; - T. Salah, M. Jamal Zemerly, Chan Yeob Yeun, M. Al-Qutayri and Y. Al-Hammadi, “The evolution of distributed systems towards microservices architecture,” 2016 11th International Conference for Internet Technology and Secured Transactions (ICITST), Barcelona, 2016, pp. 318-325.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter5/ToRead/5paperchallenges_moving_monolith.pdf&quot;&gt;Paper - TKalske, M., Mäkitalo, N., &amp;amp; Mikkonen, T. (2017, June). Challenges when moving from monolith to microservice architecture. In International Conference on Web Engineering (pp. 32-47). Springer.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;additional-resources-&quot;&gt;Additional resources :&lt;/h2&gt;
+
+&lt;p&gt;Essential microservices online resources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;http://martinfowler.com/articles/microservices.html&quot;&gt;http://martinfowler.com/articles/microservices.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://microservices.io&quot;&gt;https://microservices.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.ibm.com/cloud/learn/microservices&quot;&gt;https://www.ibm.com/cloud/learn/microservices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.nginx.com/blog/introduction-to-microservices/&quot;&gt;https://www.nginx.com/blog/introduction-to-microservices/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 5 are listed here.</summary></entry><entry><title type="html">Chapter 4 added !</title><link href="http://localhost:4000/course/update/2020/11/18/Welcome.html" rel="alternate" type="text/html" title="Chapter 4 added !" /><published>2020-11-18T08:40:12+01:00</published><updated>2020-11-18T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/11/18/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/11/18/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 4 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-4-restful-architecture&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_4&quot;&gt;Chapter 4, RESTFUL architecture&lt;/a&gt;&lt;/h1&gt;
 
@@ -61,7 +113,7 @@ The objective of this section, is to explore frameworks and tools required to bu
 
 &lt;p&gt;Web services examples of this course are deployed in Apache, and are written in Php.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;To run demo Web services provided with this lecture, you need first to clone the following repository on your machine: &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/SOC/Chapter_4/ToDo/rest/&quot;&gt;TODO/REST&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To run demo Web services provided with this lecture, you need first to clone the following repository on your machine:&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_4/ToDo/rest/&quot;&gt;TODO/REST&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Then, you need the following tools installed :&lt;/p&gt;
 
@@ -73,7 +125,7 @@ The objective of this section, is to explore frameworks and tools required to bu
     &lt;p&gt;&lt;a href=&quot;https://www.php.net/manual/en/book.curl.php&quot;&gt;PHP’s cURL extension&lt;/a&gt; : PhP has its own wrappers for cURL. &lt;a href=&quot;https://curl.se/&quot;&gt;cURL&lt;/a&gt; allows to make any web request imaginable in any form, repeat those requests, and observe in detail exactly what information is exchanged between client and server. It is a brilliant, quick tool for inspecting what’s going on with a Web request, particularly when dealing with something that isn’t in a browser or where you need to be more specific about how the request is made. PhP’s cURL extension  has excellent and comprehensive documentation on &lt;a href=&quot;http://php.net&quot;&gt;http://php.net&lt;/a&gt;. We can use this extension to make all kinds of HTTP requests, including sending custom headers, sending body data, and using different verbs to make our request. The PHP cURL extension isn’t the easiest interface to use, although it does have the advantage of being reliably available.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;(http://php.net)&quot;&gt;PHP’s built-in stream-handling functionality&lt;/a&gt; :  Another great way of making HTTP requests that is always available in PHP is to use PHP’s stream-handling abilities with the file functions. In its simplest form, this means that, if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;allow_url_fopen&lt;/code&gt; is enabled (see the PHP manual), it is possible to make requests using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_get_contents()&lt;/code&gt;. The simplest example is making a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; request and reading the response body in as if it were a local file. Using the PHP &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_get_contents()&lt;/code&gt; function, we can read files or API data but can not perform write, update, delete operations. Use cURL methods to perform all those operations using API data.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://php.net&quot;&gt;PHP’s built-in stream-handling functionality&lt;/a&gt; :  Another great way of making HTTP requests that is always available in PHP is to use PHP’s stream-handling abilities with the file functions. In its simplest form, this means that, if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;allow_url_fopen&lt;/code&gt; is enabled (see the PHP manual), it is possible to make requests using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_get_contents()&lt;/code&gt;. The simplest example is making a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; request and reading the response body in as if it were a local file. Using the PHP &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_get_contents()&lt;/code&gt; function, we can read files or API data but can not perform write, update, delete operations. Use cURL methods to perform all those operations using API data.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;These chrome extensions with added-value :
     &lt;ul&gt;
@@ -85,7 +137,7 @@ The objective of this section, is to explore frameworks and tools required to bu
     &lt;p&gt;&lt;a href=&quot;https://www.postman.com/&quot;&gt;POSTMAN&lt;/a&gt; : is an API client that makes it easy for developers to create, share, test and document APIs. This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses. It is a great tool when trying to dissect RESTful APIs made by others or test ones you have made yourself. It offers a user interface with which to make HTML requests to test an API’s functionality.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[&lt;a href=&quot;https://www.postman.com/&quot;&gt;POSTMAN Console&lt;/a&gt;] : To see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman Console allows to see and capture this network traffic easily.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.postman.com/&quot;&gt;POSTMAN Console&lt;/a&gt; : To see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman Console allows to see and capture this network traffic easily.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.soapui.org/downloads/soapui/&quot;&gt;SOAPUI the open source version&lt;/a&gt;:  an API (SOAP/REST) testing tool. SOAPUI allows to generate Restful service code from service URI and service &lt;a href=&quot;https://www.w3.org/Submission/wadl/&quot;&gt;WADL(web application description language)&lt;/a&gt; resources documentation. For further explanation, see &lt;a href=&quot;https://www.soapui.org/docs/rest-testing/&quot;&gt;https://www.soapui.org/docs/rest-testing/&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -202,7 +254,102 @@ The objective of this section, is to explore frameworks and tools required to bu
   &lt;li&gt;🔗 &lt;a href=&quot;https://www.flickr.com/services/api/&quot;&gt;Flickr API&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🔗 &lt;a href=&quot;http://sofa.uqam.ca/soda/webservices.php&quot;&gt;List of weather related and financial web services&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🔗 &lt;a href=&quot;https://rapidapi.com/blog/most-popular-api/&quot;&gt;Top 50 Most Popular APIs on RapidAPI (2020)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 4 are listed here.</summary></entry><entry><title type="html">Chapter 3 - Section 2 added !</title><link href="http://localhost:4000/course/update/2020/10/29/Welcome.html" rel="alternate" type="text/html" title="Chapter 3 - Section 2 added !" /><published>2020-10-29T08:40:12+01:00</published><updated>2020-10-29T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/10/29/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/10/29/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 3 - Section 2 are listed here.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 4 are listed here.</summary></entry><entry><title type="html">Chapter 6 added !</title><link href="http://localhost:4000/course/update/2020/11/18/Welcome.html" rel="alternate" type="text/html" title="Chapter 6 added !" /><published>2020-11-18T08:40:12+01:00</published><updated>2020-11-18T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/11/18/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/11/18/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 6 are listed here.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-6-docker-a-defacto-platform-for-microservices-architecture&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_6&quot;&gt;Chapter 6, Docker: a Defacto Platform for Microservices Architecture&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 6, Docker: a Defacto Platform for Microservices Architecture&lt;/code&gt;.  To leverage the benefits of the microservices architectural style, one needs to use technologies aligned with the characteristics of microservices. Containerization has become a popular deployment format for microservices, and Docker is the leading container platform that packages everything needed to deploy and run microservices (i.e., code, libraries, settings, etc.) .With a lot of advantages, Docker become the best fit to implementing microservices architecture. In this Chapter we will dive deep in Docker to see how Docker can effectively help in leveraging microservices architecture. It is mainly intended at laying a solid foundation for the philosophy of containers and microservices that is unlikely to change, no matter what Docker looks like in the coming months and years.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h3&gt;
+
+&lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Objectives :  Acquire a deep introduction to the fundamentals of working with Docker. You  will learn how to use Docker effectively, you’ll also grasp how it works, how each detailed feature of Docker ecosystem is meant to be used. You will have the fundamental skillset required to learn advanced topics more quickly if you wish to go further with containerized ventures.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/1Docker%20Deep%20Dive%20by%20Nigel%20Poulton.pdf&quot;&gt;Docker Deep Dive, ZERO TO DOCKER IN A SINGLE BOOK by Nigel Poulton, ed. 2018&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/2Docker%20Deep%20Dive%20by%20Nigel%20Poulton.pdf&quot;&gt;Docker Deep Dive, ZERO TO DOCKER IN A SINGLE BOOK by Nigel Poulton, ed. 2020&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-14.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/3.pdf&quot;&gt;Docker in Action, Second ed. 2019&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-5,7-9,11-13.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/4.pdf&quot;&gt;Docker in Action, first ed. 2016&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-5,7-8,11-12.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/5.pdf&quot;&gt;Docker Orchestration. 2016&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 2.&lt;/strong&gt; Building Multi-Container Applications with Docker Compose.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 4.&lt;/strong&gt; Orchestration with Docker Swarm.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/6.pdf&quot;&gt;Learning Docker, Second Edition, Faster app development and deployment with Docker containers, 2017&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-8.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/7.pdf&quot;&gt;Learn Docker, Fundamentals of Docker 19.x 2020 Packt Publishing&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-5,10-13.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/8.pdf&quot;&gt;Mastering Docker, Second Edition, Master this widely used containerization tool, 2017&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-7.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/9.pdf&quot;&gt;Mastering Docker, Fourth Edition, Master this widely used containerization tool, 2020&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Chap 1-5,8-9.&lt;/strong&gt; All.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;📝 &lt;strong&gt;ToDo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The objective of this section is to prepare our personal or working environment to work efficiently and effectively with Docker. We will discuss in detail how to set up an ideal environment that can be used when working with Docker containers.&lt;/p&gt;
+
+&lt;h4 id=&quot;running-lecture-demos-&quot;&gt;Running lecture demos :&lt;/h4&gt;
+
+&lt;p&gt;In order to run the various lecture demos and examples, you will need either to install Docker Desktop or use PLAY WITH DOCKER. There are lots of ways and places to install Docker. There’s Windows, Mac, and Linux. You can install in the cloud, on premises, and on your laptop. You will also need also to sign up for a Docker hub account &lt;a href=&quot;https://hub.docker.com/signup&quot;&gt;https://hub.docker.com/signup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To get the most out of this chapter, you will need a machine capable of running Docker. This machine should have at least 8 GB RAM and 30 GB HDD free with an Intel i3 processor or above, running one of the following OSes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;macOS High Sierra or above&lt;/li&gt;
+  &lt;li&gt;Windows 10 Professional/Enterprise/Education (does not work with Home edition)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ubuntu 18.04 or above&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.docker.com/products/docker-desktop&quot;&gt;Docker Desktop&lt;/a&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Docker Desktop&lt;/code&gt; on Windows requires 64-bit version of Windows 10 Pro/Enterprise/Education (does not work with Home edition).  Hardware virtualization support must be enabled in your system’s BIOS The Hyper-V and Containers features must be enabled in Windows. For a most updated version of installation procedure, follow the installation as explained on docker official web site or refer to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 1&lt;/code&gt; from &lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/blob/master/2020-2021Lecture/SOC/Chapter6/ToRead/9.pdf&quot;&gt;Mastering Docker, Fourth Edition, Master this widely used containerization tool, 2020&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.docker.com/play-with-docker&quot;&gt;PWD&lt;/a&gt;
+  In cas installation on your machine is not possible, you can use [https://labs.play-with-docker.com/] (https://labs.play-with-docker.com/) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PLAY WITH DOCKER (PWD)&lt;/code&gt;. It provides a free-to-use fully functional Docker playground that lasts for 4 hours. You can add multiple nodes and even cluster them in a swarm. Sometimes performance can be slow, but for a free-to-use service it is excellent.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com&quot;&gt;Docker HUB Account&lt;/a&gt; 
+  The home page, which can be found at [https://hub.docker.com] (https://hub.docker.com), contains a Sign-Up form and, at the top-right, an option to Sign in. The   odds are that if you have been dabbling with Docker, then you already have a Docker ID. If you don’t, use the Sign-Up form on the home page to create one. If you already have a Docker ID, then simply click Sign in. Once logged in, you will be presented with the main Dashboard.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;running-online-tutorials&quot;&gt;Running online tutorials:&lt;/h4&gt;
+
+&lt;h2 id=&quot;additional-resources-&quot;&gt;Additional resources :&lt;/h2&gt;
+
+&lt;p&gt;Essential microservices online resources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;http://martinfowler.com/articles/microservices.html&quot;&gt;http://martinfowler.com/articles/microservices.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://microservices.io&quot;&gt;https://microservices.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.ibm.com/cloud/learn/microservices&quot;&gt;https://www.ibm.com/cloud/learn/microservices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔗 &lt;a href=&quot;https://www.nginx.com/blog/introduction-to-microservices/&quot;&gt;https://www.nginx.com/blog/introduction-to-microservices/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Course" /><category term="update" /><summary type="html">The Web materials and resources of Chapter 6 are listed here.</summary></entry><entry><title type="html">Chapter 3 - Section 2 added !</title><link href="http://localhost:4000/course/update/2020/10/29/Welcome.html" rel="alternate" type="text/html" title="Chapter 3 - Section 2 added !" /><published>2020-10-29T08:40:12+01:00</published><updated>2020-10-29T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/10/29/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/10/29/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 3 - Section 2 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-3-web-services-core-functionality-and-standards&quot;&gt;Chapter 3, Web Services-Core functionality and standards&lt;/h1&gt;
 
