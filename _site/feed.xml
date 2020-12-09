@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-30T20:13:13+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 6 added !</title><link href="http://localhost:4000/course/update/2020/11/30/Welcome.html" rel="alternate" type="text/html" title="Chapter 6 added !" /><published>2020-11-30T08:40:12+01:00</published><updated>2020-11-30T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/11/30/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/11/30/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 6 are listed here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-09T21:57:16+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Place</title><subtitle></subtitle><entry><title type="html">Chapter 6 added !</title><link href="http://localhost:4000/course/update/2020/12/08/Welcome.html" rel="alternate" type="text/html" title="Chapter 6 added !" /><published>2020-12-08T08:40:12+01:00</published><updated>2020-12-08T08:40:12+01:00</updated><id>http://localhost:4000/course/update/2020/12/08/Welcome</id><content type="html" xml:base="http://localhost:4000/course/update/2020/12/08/Welcome.html">&lt;p&gt;The Web materials and resources of Chapter 6 are listed here.&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-6-docker-a-defacto-platform-for-microservices-architecture&quot;&gt;&lt;a href=&quot;https://github.com/neilabenlakhal/neilabenlakhal.github.io/tree/master/2020-2021Lecture/SOC/Chapter_6&quot;&gt;Chapter 6, Docker: a Defacto Platform for Microservices Architecture&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chapter 6, Docker: a Defacto Platform for Microservices Architecture&lt;/code&gt;.  To leverage the benefits of the microservices architectural style, one needs to use technologies aligned with the characteristics of microservices. Containerization has become a popular deployment format for microservices, and Docker is the leading container platform that packages everything needed to deploy and run microservices (i.e., code, libraries, settings, etc.) .With a lot of advantages, Docker become the best fit to implementing microservices architecture. In this Chapter we will dive deep in Docker to see how Docker can effectively help in leveraging microservices architecture. It is mainly intended at laying a solid foundation for the philosophy of containers and microservices that is unlikely to change, no matter what Docker looks like in the coming months and years.&lt;/p&gt;
-
-&lt;h3 id=&quot;before-lecture&quot;&gt;Before lecture&lt;/h3&gt;
 
 &lt;p&gt;📚 &lt;strong&gt;ToRead&lt;/strong&gt;&lt;/p&gt;
 
@@ -83,6 +81,93 @@
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;running-online-tutorials&quot;&gt;Running online tutorials:&lt;/h4&gt;
+
+&lt;p&gt;Scenarios than you can practice:&lt;/p&gt;
+
+&lt;p&gt;O’reilly KATAKODA : Learn Docker &amp;amp; Containers using Interactive Browser-Based Scenarios&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katacoda.com/courses/docker/deploying-first-container&quot;&gt;Deploying Your First Docker Container&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katacoda.com/courses/docker/create-nginx-static-web-server&quot;&gt;Deploy Static HTML Website as Container&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katacoda.com/courses/docker/2&quot;&gt;Building Container Images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katacoda.com/courses/docker/3&quot;&gt;Dockerizing Node.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katacoda.com/courses/docker/persisting-data-using-volumes&quot;&gt;Persisting DATA using volumes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dockerhub Labs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/docker/labs&quot;&gt;https://github.com/docker/labs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/collabnix/dockerlabs&quot;&gt;https://github.com/collabnix/dockerlabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://training.play-with-docker.com/&quot;&gt;https://training.play-with-docker.com/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;💻 &lt;strong&gt;ToCode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You are strongly advised to run all lecture demos.&lt;/p&gt;
+
+&lt;p&gt;Make a print screen of the following tasks; send them using microsoft teams with your Dockerhub account URL :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create an account with your real name and last name on Dockerhub. Make a print screen of your account.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Execute &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker image ls&lt;/code&gt; in your terminal on your computer and make a print screen of the command result. Once you have done course demos, you should have at least the following images on your machine:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hello-world&lt;/li&gt;
+  &lt;li&gt;nginx&lt;/li&gt;
+  &lt;li&gt;busybox&lt;/li&gt;
+  &lt;li&gt;kodekloud/simple-prompt-docker&lt;/li&gt;
+  &lt;li&gt;ubuntu&lt;/li&gt;
+  &lt;li&gt;jpetazzo/clock&lt;/li&gt;
+  &lt;li&gt;alpine&lt;/li&gt;
+  &lt;li&gt;redis&lt;/li&gt;
+  &lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Execute &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker ps -a&lt;/code&gt; in your terminal. This command should list all created containers so far.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Follow the steps given in our course content in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DOCKERIZING AN APPLICATION HOW TO CREATE YOUR OWN IMAGE&lt;/code&gt; section (slide 233); create an image named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;web&lt;/code&gt; and push its repository to your docker hub. Share with me the repository address. It should be something like this : &lt;a href=&quot;https://hub.docker.com/repository/docker/neilabenlakhal/web&quot;&gt;https://hub.docker.com/repository/docker/neilabenlakhal/web&lt;/a&gt; but with your name instead. Make a print screen of your DockerHub repository. you should submit a print screen like (Slide 258).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Execute the containerized Web App and make a print screen of the execution : you should have a result like in (slide 257).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create an image of the Flask Web App, see (slide 259). Once done, run the built image (from a browser) like (slide 266). Show image published to DockerHub like (slide 269).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Execute &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Docker volume ls&lt;/code&gt; and list created &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;volumes&lt;/code&gt; like (slide 369).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Execute &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Docker network ls&lt;/code&gt; and list created networks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Bonus tasks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dockerize the visit counter Web App using docker compose. You should reproduce the same results as (slide 417).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a multi-node swarm, create a service in the swarm using nginx image, check service is successfully deployed in the swarm and provide an invocation test like (slide 480).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Deploy a Multi-service Application stack, images to be used are listed in (slide 521). Show that the application is running and provide successful execution print screens like (slide 525).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&quot;additional-resources-&quot;&gt;Additional resources :&lt;/h2&gt;
 
