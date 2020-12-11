@@ -131,3 +131,34 @@ Essential microservices online resources:
 - 🔗 [https://microservices.io](https://microservices.io)
 - 🔗 [https://www.ibm.com/cloud/learn/microservices](https://www.ibm.com/cloud/learn/microservices)
 - 🔗 [https://www.nginx.com/blog/introduction-to-microservices/](https://www.nginx.com/blog/introduction-to-microservices/)
+
+
+## Chapter Videos :
+
+[Youtube video lecture Section 1: Docker History?](https://www.youtube.com/embed/kXqj2pDxnQk)
+
+<iframe width="560" height="315" src="https://youtu.be/kXqj2pDxnQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 2: Docker Ecosystem](https://youtu.be/MRejC4fuFzs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MRejC4fuFzs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+[Youtube video lecture Section 3: Installing Docker and Running our first container](https://youtu.be/4Iwg0YUHUQc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Iwg0YUHUQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Youtube video lecture Section 4: Docker Commands - more details](https://youtu.be/3tALzp_W9r8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3tALzp_W9r8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Section 5: Docker containers - running modes ](https://youtu.be/0E-XqPHyaIE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0E-XqPHyaIE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Youtube video lecture Section 6: Manipulating images](https://youtu.be/Y9ER5lBbuY0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9ER5lBbuY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
