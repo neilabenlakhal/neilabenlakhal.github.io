@@ -135,10 +135,9 @@ Essential microservices online resources:
 
 ## Chapter Videos :
 
-[Youtube video lecture Section 1: Docker History?](https://www.youtube.com/embed/kXqj2pDxnQk)
+[Youtube video lecture Section 1: Docker History?](https://youtu.be/kXqj2pDxnQk)
 
-<iframe width="560" height="315" src="https://youtu.be/kXqj2pDxnQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kXqj2pDxnQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Youtube video lecture Section 2: Docker Ecosystem](https://youtu.be/MRejC4fuFzs)
 
