@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chapter 3 -Section 1 added !"
-date:   2020-10-13 10:40:12 +0300
+date:   2021-10-13 10:40:12 +0300
 categories: Course update
 ---
 
