@@ -29,7 +29,7 @@ twitter_username: NeilaLakhal
 github_username:  neilabenlakhal
 
 # Build settings
-theme: jekyll-theme-dinky
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
