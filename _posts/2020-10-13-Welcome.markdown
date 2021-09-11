@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Chapter 3 -Section 1 added !"
-date:   2021-10-13 10:40:12 +0300
-categories: Course update
 ---
 
 The Web materials and resources of Chapter 3 are listed here.

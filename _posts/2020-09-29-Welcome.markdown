@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Chapter 1 added !"
-date:   2021-09-22 22:40:12 +0300
-categories: Course update
 ---
 
 The Web materials and resources of Chapter 1 are listed here.
