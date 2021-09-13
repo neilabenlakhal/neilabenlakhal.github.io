@@ -2,7 +2,6 @@
 layout: post
 title:  "Chapter 6 added !"
 date:   2021-12-08 10:40:12 +0300
-categories: Course update
 ---
 
 The Web materials and resources of Chapter 6 are listed here.
