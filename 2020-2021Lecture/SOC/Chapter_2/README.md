@@ -1,8 +1,5 @@
 ---
-layout: post
-title:  "Chapter 2 added !"
-date:   2020-09-23 22:40:12 +0300
-categories: Course update
+layout: page
 ---
 
 The Web materials and resources of Chapter 2 are listed here.
