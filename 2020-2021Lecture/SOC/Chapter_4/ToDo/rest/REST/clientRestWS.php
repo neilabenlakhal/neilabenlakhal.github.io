@@ -3,7 +3,7 @@
 	{
 		$name = $_POST['name'];
 		
-		$url = "http://localhost/rest/".$name;
+		$url = "http://localhost:8888/rest/".$name;
 		
 		$client = curl_init($url);
 		curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
